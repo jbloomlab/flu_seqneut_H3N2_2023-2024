@@ -1,0 +1,49 @@
+wells:
+  B11: avg_barcode_counts_per_well
+  F2: avg_barcode_counts_per_well
+barcodes:
+  CGTCCCTGGCGTGTCG: min_neut_standard_frac_per_well
+  TATATGGAATACTAAA: min_neut_standard_frac_per_well
+  TCTCCGATAGCCCTAC: min_neut_standard_frac_per_well
+barcode_wells:
+  AATGACAGCTGTCTAG A12: min_no_serum_count_per_viral_barcode_well
+  AATGACAGCTGTCTAG B12: min_no_serum_count_per_viral_barcode_well
+  CCCTCCTCAAGGGTAA B12: min_no_serum_count_per_viral_barcode_well
+  CCCTCCTCAAGGGTAA C12: min_no_serum_count_per_viral_barcode_well
+  CCCTCCTCAAGGGTAA D12: min_no_serum_count_per_viral_barcode_well
+  AATGACAGCTGTCTAG F12: min_no_serum_count_per_viral_barcode_well
+  CCCTCCTCAAGGGTAA F12: min_no_serum_count_per_viral_barcode_well
+  CCCTCCTCAAGGGTAA G12: min_no_serum_count_per_viral_barcode_well
+  AATGACAGCTGTCTAG H12: min_no_serum_count_per_viral_barcode_well
+  CCAATCCCAGCCTTTA E7: max_frac_infectivity_per_viral_barcode_well
+  CCAATCCCAGCCTTTA E8: max_frac_infectivity_per_viral_barcode_well
+  AATGACAGCTGTCTAG B9: max_frac_infectivity_per_viral_barcode_well
+  AATGACAGCTGTCTAG D11: max_frac_infectivity_per_viral_barcode_well
+  AATGACAGCTGTCTAG G11: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  AAAGACCTTTAACTCT PENN23_y1968_s033_d0: goodness_of_fit
+  AAATGCTGAGAGGGTA PENN23_y1968_s033_d0: goodness_of_fit
+  AACAATTAATTTTTCA PENN23_y1968_s033_d0: goodness_of_fit
+  AACCACCCCAGAGATG PENN23_y1968_s033_d0: goodness_of_fit
+  AATGACAGCTGTCTAG PENN23_y1968_s033_d0: goodness_of_fit
+  ACGCAAATAGACCGAA PENN23_y1968_s033_d0: goodness_of_fit
+  AGGGACTTTATTGTCC PENN23_y1968_s033_d0: goodness_of_fit
+  AGTGCTATAAAAATCA PENN23_y1968_s033_d0: goodness_of_fit
+  CAAAAAGCTAATAAGT PENN23_y1968_s033_d0: goodness_of_fit
+  CAAGACAAGCCCTATA PENN23_y1968_s033_d0: goodness_of_fit
+  CCAATCCCAGCCTTTA PENN23_y1968_s033_d0: goodness_of_fit
+  CCAGAGACACGCTAGG PENN23_y1968_s033_d0: goodness_of_fit
+  CCATATATAAGAAACC PENN23_y1968_s033_d0: goodness_of_fit
+  CCCTCCTCAAGGGTAA PENN23_y1968_s033_d0: goodness_of_fit
+  CCGCTATCATTAACCC PENN23_y1968_s033_d0: goodness_of_fit
+  CGATCTTTACGAAAAA PENN23_y1968_s033_d0: goodness_of_fit
+  GAAGTAACAAACTATG PENN23_y1968_s033_d0: goodness_of_fit
+  GACAGAAACAAAATTA PENN23_y1968_s033_d0: goodness_of_fit
+  GCTAATTCCAAAAGCG PENN23_y1968_s033_d0: goodness_of_fit
+  GTAATTCGCATGCGGA PENN23_y1968_s033_d0: goodness_of_fit
+  TAGTTGCCCCGACCTG PENN23_y1968_s033_d0: goodness_of_fit
+  TATACTCACGGAGGAT PENN23_y1968_s033_d0: goodness_of_fit
+  TTACATTTTTAGAATT PENN23_y1968_s033_d0: goodness_of_fit
+  AGGGACTTTATTGTCC PENN23_y1968_s033_d28: goodness_of_fit
+  AATGACAGCTGTCTAG PENN23_y1997_s027_d0: goodness_of_fit
+serum_replicates: {}

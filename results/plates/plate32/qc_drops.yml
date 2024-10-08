@@ -1,0 +1,19 @@
+wells: {}
+barcodes:
+  CCAATCCCAGCCTTTA: manual_drop
+  CCCTCCTCAAGGGTAA: min_neut_standard_frac_per_well
+  CGTCCCTGGCGTGTCG: min_neut_standard_frac_per_well
+  TATATGGAATACTAAA: min_neut_standard_frac_per_well
+  TCTCCGATAGCCCTAC: min_neut_standard_frac_per_well
+barcode_wells:
+  CGGGAATCTCCCATAC B5: max_frac_infectivity_per_viral_barcode_well
+  AATGACAGCTGTCTAG F8: max_frac_infectivity_per_viral_barcode_well
+  AATGACAGCTGTCTAG B9: max_frac_infectivity_per_viral_barcode_well
+  AATGACAGCTGTCTAG D9: max_frac_infectivity_per_viral_barcode_well
+  AATGACAGCTGTCTAG E10: max_frac_infectivity_per_viral_barcode_well
+  AATGACAGCTGTCTAG G11: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  TATACTCACGGAGGAT SCH23_y2018_s047: goodness_of_fit
+  AACCACCCCAGAGATG SCH23_y2022_s067: goodness_of_fit
+  TATACTCACGGAGGAT SCH23_y2022_s067: goodness_of_fit
+serum_replicates: {}

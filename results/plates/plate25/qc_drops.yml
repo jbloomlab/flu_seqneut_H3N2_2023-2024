@@ -1,0 +1,30 @@
+wells: {}
+barcodes:
+  CCAATCCCAGCCTTTA: min_neut_standard_frac_per_well
+  CCCTCCTCAAGGGTAA: min_neut_standard_frac_per_well
+  CGTCCCTGGCGTGTCG: min_neut_standard_frac_per_well
+  TATATGGAATACTAAA: min_neut_standard_frac_per_well
+  TCTCCGATAGCCCTAC: min_neut_standard_frac_per_well
+barcode_wells:
+  TATACTCACGGAGGAT G4: max_frac_infectivity_per_viral_barcode_well
+  AATGACAGCTGTCTAG G4: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG E5: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG G5: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG B6: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG H7: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG B8: max_frac_infectivity_per_viral_barcode_well
+  AATGACAGCTGTCTAG B9: max_frac_infectivity_per_viral_barcode_well
+  AACCGTACCGCGTTTA E10: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  AATGACAGCTGTCTAG SCH23_y2014_s026: goodness_of_fit
+  GCCGTAGCGAAATCTT SCH23_y2014_s026: goodness_of_fit
+  GTAATTCGCATGCGGA SCH23_y2014_s026: goodness_of_fit
+  TCTTAACTACCCGATG SCH23_y2014_s026: goodness_of_fit
+  TTACATTTTTAGAATT SCH23_y2014_s026: goodness_of_fit
+  AACAATTAATTTTTCA SCH23_y2016_s036: goodness_of_fit
+  AATGACAGCTGTCTAG SCH23_y2016_s036: goodness_of_fit
+  AAAGACCTTTAACTCT SCH23_y2022_s062: goodness_of_fit
+  AAATACCCTTGAGATA SCH23_y2022_s062: goodness_of_fit
+  TATACTCACGGAGGAT SCH23_y2022_s062: goodness_of_fit
+  TTATGTTTTAATGGTA SCH23_y2022_s062: goodness_of_fit
+serum_replicates: {}

@@ -1,0 +1,564 @@
+# === Analysis configuration file ======================================================
+
+
+# --- Configuration for `seqneut-pipeline` ---------------------------------------------
+
+seqneut-pipeline: seqneut-pipeline
+
+docs: docs
+
+description: |
+  # Sequencing-based neutralization assays of 2023-2024 human serum samples versus H3N2 influenza libraries
+
+  The numerical data and computer code are at [https://github.com/jbloomlab/flu_seqneut_H3N2_2023-2024](https://github.com/jbloomlab/flu_seqneut_H3N2_2023-2024)
+
+
+viral_libraries:
+  # The following originally designed barcodes were dropped from `H1N1_library` as
+  # they were missing in library: AAAACAGTATAGAAGA, AATCTCCTCACGCAGC, ATGCAATATTAAGGAA
+  H3N2_library: data/viral_libraries/2023_H3N2_Kikawa.csv
+  H1N1_library: data/viral_libraries/pdmH1N1_lib2023_loes.csv
+
+viral_strain_plot_order: data/H3N2library_2023-2024_allStrains.csv
+
+neut_standard_sets:
+  loes2023: data/neut_standard_sets/loes2023_neut_standards.csv
+
+illumina_barcode_parser_params:
+  upstream: CCTACAATGTCGGATTTGTATTTAATAG
+  downstream: ''
+  minq: 20
+  upstream_mismatch: 4
+  bc_orientation: R2
+
+default_process_plate_qc_thresholds: &default_process_plate_qc_thresholds
+  avg_barcode_counts_per_well: 500
+  min_neut_standard_frac_per_well: 0.005
+  no_serum_per_viral_barcode_filters:
+    min_frac: 0.0001
+    max_fold_change: 4
+    max_wells: 2
+  per_neut_standard_barcode_filters:
+    min_frac: 0.005
+    max_fold_change: 4
+    max_wells: 2
+  min_neut_standard_count_per_well: 1000
+  min_no_serum_count_per_viral_barcode_well: 100
+  max_frac_infectivity_per_viral_barcode_well: 3
+  min_dilutions_per_barcode_serum_replicate: 6
+
+default_process_plate_curvefit_params: &default_process_plate_curvefit_params
+  frac_infectivity_ceiling: 1
+  fixtop: [0.6, 1] 
+  fixbottom: 0
+  fixslope: [0.8, 10]
+
+default_process_plate_curvefit_qc:  &default_process_plate_curvefit_qc
+  max_frac_infectivity_at_least: 0.0  # Allow 'completely neutralized' straight lines to be fit
+  goodness_of_fit:  # EITHER R2 must be >= min_R2 or RMSD must be <= max_RMSD
+    min_R2: 0.5
+    max_RMSD: 0.15  # you may be able to increase this to more like 0.1
+  serum_replicates_ignore_curvefit_qc: []
+  barcode_serum_replicates_ignore_curvefit_qc: []
+
+default_serum_titer_as: midpoint
+
+default_serum_qc_thresholds: &default_serum_qc_thresholds
+  min_replicates: 2
+  max_fold_change_from_median: 6
+  viruses_ignore_qc: []
+
+sera_override_defaults: {}
+
+plates:
+
+  plate15:
+    group: PennVaccineCohort
+    date: 2024-03-28
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-03-28_plate_mapping_file15.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate16:
+    group: PennVaccineCohort
+    date: 2024-04-09
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-04-09_plate_mapping_file16.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+      
+  plate17:
+    group: SCH
+    date: 2024-04-11
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-04-11_plate_mapping_file17.csv
+    manual_drops:
+      wells:
+        - A9
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate18:
+    group: SCH
+    date: 2024-04-11
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-04-11_plate_mapping_file18.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate19_100k:
+    group: pilot
+    date: 2024-04-16
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-04-23_plate_mapping_file21.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate20_150k:
+    group: pilot
+    date: 2024-04-16
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-04-23_plate_mapping_file22.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate21_200k:
+    group: pilot
+    date: 2024-04-16
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-04-23_plate_mapping_file23.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate22:
+    group: PennVaccineCohort
+    date: 2024-04-18
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-04-18_plate_mapping_file19.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: TGACGC # Fwd3
+      upstream2_mismatch: 1
+      
+  plate23:
+    group: PennVaccineCohort
+    date: 2024-04-18
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-04-18_plate_mapping_file20.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: CAGTTG # Fwd4
+      upstream2_mismatch: 1
+
+  plate24:
+    group: PennVaccineCohort
+    date: 2024-05-02
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-05-02_plate_mapping_file24.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+
+  plate25:
+    group: SCH
+    date: 2024-05-20
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-05-20_plate_mapping_file27.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: TGACGC # Fwd3
+      upstream2_mismatch: 1
+
+  plate26:
+    group: SCH
+    date: 2024-05-20
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-05-20_plate_mapping_file28.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: CAGTTG # Fwd4
+      upstream2_mismatch: 1
+      
+  plate27:
+    group: PennVaccineCohort
+    date: 2024-05-17
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-05-17_plate_mapping_file26.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+      min_neut_standard_frac_per_well: 0.001
+      # Unknown experimental error led to low neut standard fractions across plate
+      # However, high sequencing depth on this run means we can relax this parameter
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GCTACA # Fwd1
+      upstream2_mismatch: 1
+
+  plate28:
+    group: PennVaccineCohort
+    date: 2024-05-17
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-05-17_plate_mapping_file25.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+      min_neut_standard_frac_per_well: 0.001
+      # Unknown experimental error led to low neut standard fractions across plate
+      # However, high sequencing depth on this run means we can relax this parameter
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ATCGAT # Fwd2
+      upstream2_mismatch: 1
+
+  plate29:
+    group: PennVaccineCohort
+    date: 2024-05-28
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-05-28_plate_mapping_file30.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: TGACGC # Fwd3
+      upstream2_mismatch: 1
+
+  plate30:
+    group: PennVaccineCohort
+    date: 2024-05-28
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-05-28_plate_mapping_file29.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: CAGTTG # Fwd4
+      upstream2_mismatch: 1
+
+  plate31:
+    group: SCH
+    date: 2024-05-30
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-05-30_plate_mapping_file31.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GCTACA # Fwd1
+      upstream2_mismatch: 1
+
+  plate32:
+    group: SCH
+    date: 2024-05-30
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-05-30_plate_mapping_file32.csv
+    manual_drops:
+      barcodes:
+        - CCAATCCCAGCCTTTA
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ATCGAT # Fwd2
+      upstream2_mismatch: 1
+
+  plate33:
+    group: PennVaccineCohort
+    date: 2024-06-04
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-06-04_plate_mapping_file34.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: TGACGC # Fwd3
+      upstream2_mismatch: 1
+
+  plate34:
+    group: PennVaccineCohort
+    date: 2024-06-04
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-06-04_plate_mapping_file33.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: CAGTTG # Fwd4
+      upstream2_mismatch: 1
+
+  plate35:
+    group: PennVaccineCohort
+    date: 2024-06-04
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-07-02_plate_mapping_file36.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ATCGAT # Fwd2
+      upstream2_mismatch: 1
+
+  plate36:
+    group: SCH
+    date: 2024-05-30
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-07-02_plate_mapping_file35.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: TGACGC # Fwd3
+      upstream2_mismatch: 1
+      
+  plate37:
+    group: AusVaccineCohort
+    date: 2024-09-24
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-09-24_plate_mapping_file37.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ATCGAT # Fwd2
+      upstream2_mismatch: 1
+
+  plate38:
+    group: PooledSera
+    date: 2024-09-24
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-09-24_plate_mapping_file38.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ATCGAT # Fwd2
+      upstream2_mismatch: 1
+
+  plate39:
+    group: PooledSera
+    date: 2024-09-25
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-09-25_plate_mapping_file40.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GCTACA # Fwd1
+      upstream2_mismatch: 1
+
+  plate40:
+    group: AusVaccineCohort
+    date: 2024-09-25
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-09-25_plate_mapping_file41.csv
+    manual_drops:
+      wells:
+        - C10 # High neutralization standard spike-in or too few cells
+        - C11 # High neutralization standard spike-in or too few cells
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GCTACA # Fwd1
+      upstream2_mismatch: 1
+
+  plate41:
+    group: AusVaccineCohort
+    date: 2024-09-25
+    viral_library: H3N2_library
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2024-09-25_plate_mapping_file39.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ATCGAT # Fwd2
+      upstream2_mismatch: 1
+
+
+
+miscellaneous_plates:
+
+    240111_initial_H3N2:
+      date: 2024-01-11
+      viral_library: H3N2_library
+      neut_standard_set: loes2023
+      samples_csv: data/miscellaneous_plates/H3N2library_initialPool_samples.csv
+
+    240124_repool_H3N2:
+      date: 2024-01-24
+      viral_library: H3N2_library
+      neut_standard_set: loes2023
+      samples_csv: data/miscellaneous_plates/2024-01-22_H3N2_sampleData_rePool_MOItest.csv
+
+    240207_repool_H3N2:
+      date: 2024-02-07
+      viral_library: H3N2_library
+      neut_standard_set: loes2023
+      samples_csv: data/miscellaneous_plates/2024-02-07_H3N2_sampleData_rePool_MOItest.csv
+
+    240207_repool_H1N1:
+      date: 2024-02-07
+      viral_library: H1N1_library
+      neut_standard_set: loes2023
+      samples_csv: data/miscellaneous_plates/2024-02-07_H1N1_sampleData_rePool_MOItest.csv
+
+    240328_repool_H3N2_variableCell:
+      date: 2024-03-28
+      viral_library: H3N2_library
+      neut_standard_set: loes2023
+      samples_csv: data/miscellaneous_plates/2024-03-28_H3N2_MOItest_variableCell.csv
+
+    240924_repool_H3N2_balancing:
+      date: 2024-09-24
+      viral_library: H3N2_library
+      neut_standard_set: loes2023
+      samples_csv: data/miscellaneous_plates/2024-09-24_repool_H3N2_balancing.csv
+      illumina_barcode_parser_params:
+        upstream2: GCTACA # Fwd1
+        upstream2_mismatch: 1

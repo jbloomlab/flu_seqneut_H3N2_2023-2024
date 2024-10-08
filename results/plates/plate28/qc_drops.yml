@@ -1,0 +1,15 @@
+wells: {}
+barcodes:
+  CGTCCCTGGCGTGTCG: min_neut_standard_frac_per_well
+  TATATGGAATACTAAA: min_neut_standard_frac_per_well
+  TCTCCGATAGCCCTAC: min_neut_standard_frac_per_well
+barcode_wells:
+  AATGACAGCTGTCTAG H10: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  AAGCTAATCGTAGTCC PENN23_y1996_s043_d0: goodness_of_fit
+  CCGCTATCATTAACCC PENN23_y1996_s043_d0: goodness_of_fit
+  CCTATAAGGCCTTACG PENN23_y1996_s043_d0: goodness_of_fit
+  CGTACGTATGTCCCAG PENN23_y1996_s043_d0: goodness_of_fit
+  GGCAATAAGTTAAATG PENN23_y1996_s043_d0: goodness_of_fit
+  CCCGCTAACCCTGTCT PENN23_y1996_s043_d28: goodness_of_fit
+serum_replicates: {}

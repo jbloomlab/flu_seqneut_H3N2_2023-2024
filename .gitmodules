@@ -1,0 +1,3 @@
+[submodule "seqneut-pipeline"]
+	path = seqneut-pipeline
+	url = https://github.com/jbloomlab/seqneut-pipeline

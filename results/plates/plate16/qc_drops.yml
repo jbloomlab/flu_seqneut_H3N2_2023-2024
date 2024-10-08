@@ -1,0 +1,59 @@
+wells:
+  A10: avg_barcode_counts_per_well
+  A11: avg_barcode_counts_per_well
+  A12: avg_barcode_counts_per_well
+  A6: avg_barcode_counts_per_well
+  B10: avg_barcode_counts_per_well
+  B11: avg_barcode_counts_per_well
+  B12: avg_barcode_counts_per_well
+  B2: avg_barcode_counts_per_well
+  C10: avg_barcode_counts_per_well
+  C11: avg_barcode_counts_per_well
+  C12: avg_barcode_counts_per_well
+  C9: avg_barcode_counts_per_well
+  D1: avg_barcode_counts_per_well
+  D10: avg_barcode_counts_per_well
+  D11: avg_barcode_counts_per_well
+  D12: avg_barcode_counts_per_well
+  D3: avg_barcode_counts_per_well
+  D5: avg_barcode_counts_per_well
+  D6: avg_barcode_counts_per_well
+  D8: avg_barcode_counts_per_well
+  D9: avg_barcode_counts_per_well
+  E10: avg_barcode_counts_per_well
+  E11: avg_barcode_counts_per_well
+  E12: avg_barcode_counts_per_well
+  E9: avg_barcode_counts_per_well
+  F1: avg_barcode_counts_per_well
+  F10: avg_barcode_counts_per_well
+  F11: avg_barcode_counts_per_well
+  F12: avg_barcode_counts_per_well
+  F2: avg_barcode_counts_per_well
+  F3: avg_barcode_counts_per_well
+  F4: avg_barcode_counts_per_well
+  F7: avg_barcode_counts_per_well
+  F9: avg_barcode_counts_per_well
+  G1: avg_barcode_counts_per_well
+  G10: avg_barcode_counts_per_well
+  G11: avg_barcode_counts_per_well
+  G12: avg_barcode_counts_per_well
+  G8: avg_barcode_counts_per_well
+  G9: avg_barcode_counts_per_well
+  H1: avg_barcode_counts_per_well
+  H10: avg_barcode_counts_per_well
+  H11: avg_barcode_counts_per_well
+  H12: avg_barcode_counts_per_well
+  H2: avg_barcode_counts_per_well
+  H3: avg_barcode_counts_per_well
+  H7: avg_barcode_counts_per_well
+  H8: avg_barcode_counts_per_well
+  H9: avg_barcode_counts_per_well
+barcodes:
+  AAAAAATTTATGACAA: min_neut_standard_frac_per_well
+  AACCACCGAGTGACCG: min_neut_standard_frac_per_well
+  CAATTAGAAATACATA: min_neut_standard_frac_per_well
+  CTTTAAATTATAGTCT: min_neut_standard_frac_per_well
+  TACCCTGCAAGCCACT: min_neut_standard_frac_per_well
+barcode_wells: {}
+barcode_serum_replicates: {}
+serum_replicates: {}

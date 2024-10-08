@@ -1,0 +1,43 @@
+wells:
+  E5: avg_barcode_counts_per_well
+  H1: avg_barcode_counts_per_well
+  H8: avg_barcode_counts_per_well
+barcodes:
+  CCAATCCCAGCCTTTA: min_neut_standard_frac_per_well
+  CGTCCCTGGCGTGTCG: min_neut_standard_frac_per_well
+  TATATGGAATACTAAA: min_neut_standard_frac_per_well
+  TCTCCGATAGCCCTAC: min_neut_standard_frac_per_well
+barcode_wells:
+  CCCTCCTCAAGGGTAA G12: min_no_serum_count_per_viral_barcode_well
+  TCCGCCACTATAACAT G12: min_no_serum_count_per_viral_barcode_well
+  CCCGCTAACCCTGTCT H12: min_no_serum_count_per_viral_barcode_well
+  AATGACAGCTGTCTAG H12: min_no_serum_count_per_viral_barcode_well
+  CCTATAAGGCCTTACG H12: min_no_serum_count_per_viral_barcode_well
+  TCCGCCACTATAACAT H12: min_no_serum_count_per_viral_barcode_well
+  CCCTCCTCAAGGGTAA H12: min_no_serum_count_per_viral_barcode_well
+  AATGACAGCTGTCTAG A3: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG A4: max_frac_infectivity_per_viral_barcode_well
+  TTGACTCACCGAATAA H4: max_frac_infectivity_per_viral_barcode_well
+  CCAGAGACACGCTAGG A6: max_frac_infectivity_per_viral_barcode_well
+  CCCTCCTCAAGGGTAA E6: max_frac_infectivity_per_viral_barcode_well
+  AGGGACTTTATTGTCC A7: max_frac_infectivity_per_viral_barcode_well
+  ATTAGATTATAACGTA F7: max_frac_infectivity_per_viral_barcode_well
+  TTGCAATTGAAACATA F7: max_frac_infectivity_per_viral_barcode_well
+  TTGACTCACCGAATAA F7: max_frac_infectivity_per_viral_barcode_well
+  AATGACAGCTGTCTAG H10: max_frac_infectivity_per_viral_barcode_well
+  CGATCTTTACGAAAAA A11: max_frac_infectivity_per_viral_barcode_well
+  CCCTCCTCAAGGGTAA C11: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  TATACTCACGGAGGAT AUS24_s008_prevax: goodness_of_fit
+  AAGTATTGCTACACAT AUS24_s010_postvax: goodness_of_fit
+  ATTAGATTATAACGTA AUS24_s010_postvax: goodness_of_fit
+  TCTTAACTACCCGATG AUS24_s010_postvax: goodness_of_fit
+  AAGCTAATCGTAGTCC AUS24_s010_prevax: goodness_of_fit
+  ATTAGATTATAACGTA AUS24_s010_prevax: goodness_of_fit
+  CGTACAGTGTAATCGA AUS24_s010_prevax: goodness_of_fit
+  GACAGAAACAAAATTA AUS24_s010_prevax: goodness_of_fit
+  GACCTCCTGGGCACGC AUS24_s010_prevax: goodness_of_fit
+  TAGTTGCCCCGACCTG AUS24_s010_prevax: goodness_of_fit
+  TATACTCACGGAGGAT AUS24_s010_prevax: goodness_of_fit
+  TATCCAAGGGACGGAC AUS24_s010_prevax: goodness_of_fit
+serum_replicates: {}

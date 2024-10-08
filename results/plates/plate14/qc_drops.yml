@@ -1,0 +1,103 @@
+wells:
+  F2: avg_barcode_counts_per_well
+barcodes:
+  CCCTCCTCAAGGGTAA: min_neut_standard_frac_per_well
+  CGTCCCTGGCGTGTCG: min_neut_standard_frac_per_well
+  TATATGGAATACTAAA: min_neut_standard_frac_per_well
+  TCTCCGATAGCCCTAC: min_neut_standard_frac_per_well
+barcode_wells:
+  AAGTATTGCTACACAT H3: manual_drop
+  CCTATAAGGCCTTACG H3: manual_drop
+  ATAGAAAATTATCCGC C12: min_no_serum_count_per_viral_barcode_well
+  CCCGCTAACCCTGTCT F12: min_no_serum_count_per_viral_barcode_well
+  CCAATCCCAGCCTTTA F12: min_no_serum_count_per_viral_barcode_well
+  CTCCAATAGGAGACGA G12: min_no_serum_count_per_viral_barcode_well
+  CCTATAAGGCCTTACG H12: min_no_serum_count_per_viral_barcode_well
+  CCAATCCCAGCCTTTA B6: max_frac_infectivity_per_viral_barcode_well
+  CAATTCGCCGTTCCCC E6: max_frac_infectivity_per_viral_barcode_well
+  CCAATCCCAGCCTTTA E6: max_frac_infectivity_per_viral_barcode_well
+  TGCCGATCCAATTGAT F6: max_frac_infectivity_per_viral_barcode_well
+  CCAATCCCAGCCTTTA H6: max_frac_infectivity_per_viral_barcode_well
+  CAATTCGCCGTTCCCC D7: max_frac_infectivity_per_viral_barcode_well
+  CAATTCGCCGTTCCCC E7: max_frac_infectivity_per_viral_barcode_well
+  ATTAGATTATAACGTA A8: max_frac_infectivity_per_viral_barcode_well
+  AATCTTTCCAATCTTG A8: max_frac_infectivity_per_viral_barcode_well
+  CGAAAACATTACAAAT F8: max_frac_infectivity_per_viral_barcode_well
+  CAATTCGCCGTTCCCC G8: max_frac_infectivity_per_viral_barcode_well
+  AATGACAGCTGTCTAG B9: max_frac_infectivity_per_viral_barcode_well
+  CTCATTACAGAAATTG C9: max_frac_infectivity_per_viral_barcode_well
+  CCAATCCCAGCCTTTA C9: max_frac_infectivity_per_viral_barcode_well
+  CGTACAGTGTAATCGA D9: max_frac_infectivity_per_viral_barcode_well
+  AGCTATGCCTAGTGAA D9: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG C10: max_frac_infectivity_per_viral_barcode_well
+  ATAGAAAATTATCCGC C10: max_frac_infectivity_per_viral_barcode_well
+  CATAATGCACAAACGC D10: max_frac_infectivity_per_viral_barcode_well
+  TGCCGATCCAATTGAT E10: max_frac_infectivity_per_viral_barcode_well
+  TCTTAGAGTGAACGAT F10: max_frac_infectivity_per_viral_barcode_well
+  CAATTCGCCGTTCCCC G10: max_frac_infectivity_per_viral_barcode_well
+  CTCCAATAGGAGACGA G10: max_frac_infectivity_per_viral_barcode_well
+  GACCAAAGCTGCAGGG H10: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG B11: max_frac_infectivity_per_viral_barcode_well
+  GCATTATAATCTTGTG C11: max_frac_infectivity_per_viral_barcode_well
+  CGTACAGTGTAATCGA C11: max_frac_infectivity_per_viral_barcode_well
+  ATAGAAAATTATCCGC C11: max_frac_infectivity_per_viral_barcode_well
+  CAATTCGCCGTTCCCC C11: max_frac_infectivity_per_viral_barcode_well
+  CCAATCCCAGCCTTTA D11: max_frac_infectivity_per_viral_barcode_well
+  CTCCAATAGGAGACGA D11: max_frac_infectivity_per_viral_barcode_well
+  CTCATTACAGAAATTG F11: max_frac_infectivity_per_viral_barcode_well
+  CAATTCGCCGTTCCCC F11: max_frac_infectivity_per_viral_barcode_well
+  TGCCGATCCAATTGAT G11: max_frac_infectivity_per_viral_barcode_well
+  CAATTCGCCGTTCCCC G11: max_frac_infectivity_per_viral_barcode_well
+  AACCACCCCAGAGATG G11: max_frac_infectivity_per_viral_barcode_well
+  AATGACAGCTGTCTAG G11: max_frac_infectivity_per_viral_barcode_well
+  CGAAAACATTACAAAT H11: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  AAACTTCGTGGTATAC PENN23_y1993_s020_d0: goodness_of_fit
+  AAAGACCTTTAACTCT PENN23_y1993_s020_d0: goodness_of_fit
+  AACAAGGCCAACATTT PENN23_y1993_s020_d0: goodness_of_fit
+  AACAATTAATTTTTCA PENN23_y1993_s020_d0: goodness_of_fit
+  AAGCTAATCGTAGTCC PENN23_y1993_s020_d0: goodness_of_fit
+  AGTGCTATAAAAATCA PENN23_y1993_s020_d0: goodness_of_fit
+  AGTTATGTAAAACGTG PENN23_y1993_s020_d0: goodness_of_fit
+  CAAAAAGCTAATAAGT PENN23_y1993_s020_d0: goodness_of_fit
+  CCATCACCTTATACAC PENN23_y1993_s020_d0: goodness_of_fit
+  CCTATAAGGCCTTACG PENN23_y1993_s020_d0: goodness_of_fit
+  CGCAAGGGATACTAAC PENN23_y1993_s020_d0: goodness_of_fit
+  CGGGAATCTCCCATAC PENN23_y1993_s020_d0: goodness_of_fit
+  CTCCAATAGGAGACGA PENN23_y1993_s020_d0: goodness_of_fit
+  CTGCGAATATTGTGAC PENN23_y1993_s020_d0: goodness_of_fit
+  GACCAAAAAGCAGTAT PENN23_y1993_s020_d0: goodness_of_fit
+  GGGTGCAATGAATCCA PENN23_y1993_s020_d0: goodness_of_fit
+  TAGATAATAAGATTCA PENN23_y1993_s020_d0: goodness_of_fit
+  TATCGCAATATGATAA PENN23_y1993_s020_d0: goodness_of_fit
+  TCCCGAACTGAACGCG PENN23_y1993_s020_d0: goodness_of_fit
+  TCCGCCACTATAACAT PENN23_y1993_s020_d0: goodness_of_fit
+  TCGCGGTAGATTTGCG PENN23_y1993_s020_d0: goodness_of_fit
+  TCTTGAATTTCATGGA PENN23_y1993_s020_d0: goodness_of_fit
+  TGACAAACACCTGAGG PENN23_y1993_s020_d0: goodness_of_fit
+  TTGCAATTGAAACATA PENN23_y1993_s020_d0: goodness_of_fit
+  TTGCTAGTCTACCTGA PENN23_y1993_s020_d0: goodness_of_fit
+  ACGCAAATAGACCGAA PENN23_y1993_s022_d0: goodness_of_fit
+  CAAAAAGCTAATAAGT PENN23_y1993_s022_d0: goodness_of_fit
+  CACCGACCAACTCTCT PENN23_y1993_s022_d0: goodness_of_fit
+  CCCGCTAACCCTGTCT PENN23_y1993_s022_d0: goodness_of_fit
+  CGGCTAAAGTCTATAG PENN23_y1993_s022_d0: goodness_of_fit
+  GCTGGTGCACAAGATT PENN23_y1993_s022_d0: goodness_of_fit
+  TTACATTTTTAGAATT PENN23_y1993_s022_d0: goodness_of_fit
+  TTGACTCACCGAATAA PENN23_y1993_s022_d0: goodness_of_fit
+  ACAAAGATAAAAATTT PENN23_y1993_s022_d28: goodness_of_fit
+  ACGCAAATAGACCGAA PENN23_y1993_s022_d28: goodness_of_fit
+  AGACCATCGCACCCAA PENN23_y1993_s022_d28: goodness_of_fit
+  AGCTATGCCTAGTGAA PENN23_y1993_s022_d28: goodness_of_fit
+  ATGGTTATCTTACCTT PENN23_y1993_s022_d28: goodness_of_fit
+  TTGACTCACCGAATAA PENN23_y1993_s022_d28: goodness_of_fit
+  ATGCGTCTAAACATAG PENN23_y1994_s021_d0: goodness_of_fit
+  CATAATGCACAAACGC PENN23_y1994_s021_d0: goodness_of_fit
+  CCCGCTAACCCTGTCT PENN23_y1994_s021_d0: goodness_of_fit
+  CCGCAATGACAATTTG PENN23_y1994_s021_d0: goodness_of_fit
+  CCAATCCCAGCCTTTA PENN23_y1994_s021_d28: goodness_of_fit
+  ATTTTTCTATGGCTAC PENN23_y1997_s023_d0: goodness_of_fit
+  AAGTATTGCTACACAT PENN23_y1997_s023_d28: goodness_of_fit
+  CTCCAATAGGAGACGA PENN23_y1997_s023_d28: goodness_of_fit
+  TTAACCTAACGTATAG PENN23_y1997_s023_d28: goodness_of_fit
+serum_replicates: {}

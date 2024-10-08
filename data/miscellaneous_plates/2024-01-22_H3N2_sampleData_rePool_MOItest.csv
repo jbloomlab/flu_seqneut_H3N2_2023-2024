@@ -1,0 +1,13 @@
+﻿well,serum,dilution_factor,replicate,fastq
+A1,H3N2library_rePool,1,1,/fh/fast/bloom_j/SR/ngs/illumina/ckikawa/240124_VH01189_225_AAFGG2HM5/Unaligned/Project_ckikawa/MOI_test_conc1_S8_R1_001.fastq.gz
+A2,H3N2library_rePool,2,1,/fh/fast/bloom_j/SR/ngs/illumina/ckikawa/240124_VH01189_225_AAFGG2HM5/Unaligned/Project_ckikawa/MOI_test_conc2_S16_R1_001.fastq.gz
+A3,H3N2library_rePool,4,1,/fh/fast/bloom_j/SR/ngs/illumina/ckikawa/240124_VH01189_225_AAFGG2HM5/Unaligned/Project_ckikawa/MOI_test_conc3_S24_R1_001.fastq.gz
+A4,H3N2library_rePool,8,1,/fh/fast/bloom_j/SR/ngs/illumina/ckikawa/240124_VH01189_225_AAFGG2HM5/Unaligned/Project_ckikawa/MOI_test_conc4_S32_R1_001.fastq.gz
+A5,H3N2library_rePool,16,1,/fh/fast/bloom_j/SR/ngs/illumina/ckikawa/240124_VH01189_225_AAFGG2HM5/Unaligned/Project_ckikawa/MOI_test_conc5_S40_R1_001.fastq.gz
+A6,H3N2library_rePool,32,1,/fh/fast/bloom_j/SR/ngs/illumina/ckikawa/240124_VH01189_225_AAFGG2HM5/Unaligned/Project_ckikawa/MOI_test_conc6_S48_R1_001.fastq.gz
+A7,H3N2library_rePool,64,1,/fh/fast/bloom_j/SR/ngs/illumina/ckikawa/240124_VH01189_225_AAFGG2HM5/Unaligned/Project_ckikawa/MOI_test_conc7_S56_R1_001.fastq.gz
+A8,H3N2library_rePool,128,1,/fh/fast/bloom_j/SR/ngs/illumina/ckikawa/240124_VH01189_225_AAFGG2HM5/Unaligned/Project_ckikawa/MOI_test_conc8_S64_R1_001.fastq.gz
+A9,H3N2library_rePool,256,1,/fh/fast/bloom_j/SR/ngs/illumina/ckikawa/240124_VH01189_225_AAFGG2HM5/Unaligned/Project_ckikawa/MOI_test_conc9_S72_R1_001.fastq.gz
+A10,H3N2library_rePool,512,1,/fh/fast/bloom_j/SR/ngs/illumina/ckikawa/240124_VH01189_225_AAFGG2HM5/Unaligned/Project_ckikawa/MOI_test_conc10_S80_R1_001.fastq.gz
+A11,H3N2library_rePool,1024,1,/fh/fast/bloom_j/SR/ngs/illumina/ckikawa/240124_VH01189_225_AAFGG2HM5/Unaligned/Project_ckikawa/MOI_test_conc11_S88_R1_001.fastq.gz
+A12,H3N2library_rePool,2048,1,/fh/fast/bloom_j/SR/ngs/illumina/ckikawa/240124_VH01189_225_AAFGG2HM5/Unaligned/Project_ckikawa/MOI_test_conc12_S96_R1_001.fastq.gz
