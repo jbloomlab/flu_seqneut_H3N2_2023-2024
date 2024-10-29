@@ -1,6 +1,6 @@
 # Sequencing-based neutralization assays to estimate serum neutralizing titers in adult and pediatric cohorts using a library of 61 seasonal H3N2 influenza viruses circulating in late 2023 and 17 recent and historical vaccine strains 
 This repository contains data and analysis of sequencing-based neutralization assays using a library of 78 seasonal H3N2 influenza viruses, including 17 recent and historical vaccine strains (with both egg- and cell-passaging histories) and 61 strains representing circulating H3N2 diversity in November 2023. 
-These experiments were performed by Caroline Kikawa, using method and analysis developed by the [Bloom lab](https://jbloomlab.github.io/) and described in [Loes et al. 2024](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10942427/).
+These experiments were performed by Caroline Kikawa, using method and analysis developed by the [Bloom lab](https://jbloomlab.github.io/) and described in [Loes et al (2024)](https://journals.asm.org/doi/10.1128/jvi.00689-24).
 
 ## Quick summary
 * The actual strains in the library are listed in CSV format in [./data/H3N2library_2023-2024_allStrains.csv](./data/H3N2library_2023-2024_allStrains.csv), and the process of library design is described in [library_design/README.md](library_design/README.md).
@@ -10,9 +10,15 @@ These experiments were performed by Caroline Kikawa, using method and analysis d
 
 * This library was then assayed against sera from different human cohorts, specifically:
     * 78 unique human serum samples from the University of Pennsylvania, taken at 0 and 28 days post vaccination (from 39 matched individuals) with the egg-based 2022-2023 seasonal influenza virus vaccine. The H3N2 vaccine component that season was A/Darwin/9/2021.
-    * 56 human serum samples from Seattle Children's Hospital obtained from routine blood draws.
+    * 56 pediatric human serum samples from Seattle Children's Hospital obtained from routine blood draws.
+    * 20 sera samples from a cohort from Australia taken pre- and post-vaccination from 10 individuals vaccinated with the cell-based 2024 Southern Hemisphere vaccine
+    * Some pools of the sera from the different cohorts.
 
-* Serum neutralizing titers measured from the University of Pennsylvania cohort are placed in [./results/aggregated_titers/titers_PennVaccineCohort.csv](./results/aggregated_titers/titers_PennVaccineCohort.csv), and titers from the Seattle Children's Hospital cohort are placed in [./results/aggregated_titers/titers_SCH.csv](./results/aggregated_titers/titers_SCH.csv)
+* The aggregated titers for each cohort are in in [results/aggregated_titers](results/aggregated_titers). Specifically:
+    * titers for the Penn vaccine cohort: [./results/aggregated_titers/titers_PennVaccineCohort.csv](./results/aggregated_titers/titers_PennVaccineCohort.csv)
+    * titers for the Seattle Children's Hospital cohort: in [./results/aggregated_titers/titers_SCH.csv](./results/aggregated_titers/titers_SCH.csv)
+    * titers for the Australia vaccine cohort: [./results/aggregated_titers/titers_AusVaccineCohort.csv](./results/aggregated_titers/titers_AusVaccineCohort.csv)
+    * titers for the pooled sera: [./results/aggregated_titers/titers_PooledSera.csv](./results/aggregated_titers/titers_PooledSera.csv)
 
 ## Description of input data
 The input data are in [./data/](data), and include:
