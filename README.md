@@ -10,9 +10,15 @@ These experiments were performed by Caroline Kikawa, using method and analysis d
 
 * This library was then assayed against sera from different human cohorts, specifically:
     * 78 unique human serum samples from the University of Pennsylvania, taken at 0 and 28 days post vaccination (from 39 matched individuals) with the egg-based 2022-2023 seasonal influenza virus vaccine. The H3N2 vaccine component that season was A/Darwin/9/2021.
-    * 56 human serum samples from Seattle Children's Hospital obtained from routine blood draws.
+    * 56 pediatric human serum samples from Seattle Children's Hospital obtained from routine blood draws.
+    * 20 sera samples from a cohort from Australia taken pre- and post-vaccination from 10 individuals vaccinated with the cell-based 2024 Southern Hemisphere vaccine
+    * Some pools of the sera from the different cohorts.
 
-* Serum neutralizing titers measured from the University of Pennsylvania cohort are placed in [./results/aggregated_titers/titers_PennVaccineCohort.csv](./results/aggregated_titers/titers_PennVaccineCohort.csv), and titers from the Seattle Children's Hospital cohort are placed in [./results/aggregated_titers/titers_SCH.csv](./results/aggregated_titers/titers_SCH.csv)
+* The aggregated titers for each cohort are in in [results/aggregated_titers](results/aggregated_titers). Specifically:
+    * titers for the Penn vaccine cohort: [./results/aggregated_titers/titers_PennVaccineCohort.csv](./results/aggregated_titers/titers_PennVaccineCohort.csv)
+    * titers for the Seattle Children's Hospital cohort: in [./results/aggregated_titers/titers_SCH.csv](./results/aggregated_titers/titers_SCH.csv)
+    * titers for the Australia vaccine cohort: [./results/aggregated_titers/titers_AusVaccineCohort.csv](./results/aggregated_titers/titers_AusVaccineCohort.csv)
+    * titers for the pooled sera: [./results/aggregated_titers/titers_PooledSera.csv](./results/aggregated_titers/titers_PooledSera.csv)
 
 ## Description of input data
 The input data are in [./data/](data), and include:
