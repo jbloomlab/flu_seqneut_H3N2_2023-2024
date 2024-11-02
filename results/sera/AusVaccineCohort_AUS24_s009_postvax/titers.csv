@@ -40,8 +40,8 @@ AusVaccineCohort,AUS24_s009_postvax,A/Oman/3011/2023,3211,interpolated,223.4,3,m
 AusVaccineCohort,AUS24_s009_postvax,A/Ontario/RV00796/2023,2884,interpolated,156.2,3,midpoint
 AusVaccineCohort,AUS24_s009_postvax,A/Romania/543634/2022,2041,interpolated,607.5,3,midpoint
 AusVaccineCohort,AUS24_s009_postvax,A/SENDAI/45/2023,3204,interpolated,222,3,midpoint
-AusVaccineCohort,AUS24_s009_postvax,A/SOUTH_AFRICA/R07876/202023,3637,interpolated,297.2,3,midpoint
-AusVaccineCohort,AUS24_s009_postvax,A/Saint-Petersburg/RII-MH144113/2023,2507,interpolated,157.3,3,midpoint
+AusVaccineCohort,AUS24_s009_postvax,A/SOUTH_AFRICA/R07876/2023,3637,interpolated,297.2,3,midpoint
+AusVaccineCohort,AUS24_s009_postvax,A/Saint-Petersburg/RII-MH144112/2023,2507,interpolated,157.3,3,midpoint
 AusVaccineCohort,AUS24_s009_postvax,A/Samut_Songkhram/THIS061/2023,3250,interpolated,260.6,3,midpoint
 AusVaccineCohort,AUS24_s009_postvax,A/Saskatchewan/SKFLU317847/2023,755.6,interpolated,43.54,3,midpoint
 AusVaccineCohort,AUS24_s009_postvax,A/Schleswig-Holstein/4/2023,2831,interpolated,213,3,midpoint
@@ -51,8 +51,8 @@ AusVaccineCohort,AUS24_s009_postvax,A/Solwezi/13-NIC-001/2023,3209,interpolated,
 AusVaccineCohort,AUS24_s009_postvax,A/SouthAfrica/PET28931/2023,3030,interpolated,549,3,midpoint
 AusVaccineCohort,AUS24_s009_postvax,A/SouthSudan/631/2023,4417,interpolated,30.08,3,midpoint
 AusVaccineCohort,AUS24_s009_postvax,A/SouthSudan/642/2023,4777,interpolated,307,3,midpoint
+AusVaccineCohort,AUS24_s009_postvax,A/South_Africa/K056863/2023,2793,interpolated,271.6,3,midpoint
 AusVaccineCohort,AUS24_s009_postvax,A/South_Africa/K056872/2023,2492,interpolated,31.6,3,midpoint
-AusVaccineCohort,AUS24_s009_postvax,A/South_Africa/KO56863/2023,2793,interpolated,271.6,3,midpoint
 AusVaccineCohort,AUS24_s009_postvax,A/South_Africa/R05384/2023,2492,interpolated,179.4,3,midpoint
 AusVaccineCohort,AUS24_s009_postvax,A/South_Africa/R05510/2023,4180,interpolated,136.6,3,midpoint
 AusVaccineCohort,AUS24_s009_postvax,A/South_Africa/R06240/2023,3469,interpolated,369.7,3,midpoint

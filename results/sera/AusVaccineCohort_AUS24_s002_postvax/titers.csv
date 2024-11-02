@@ -40,8 +40,8 @@ AusVaccineCohort,AUS24_s002_postvax,A/Oman/3011/2023,1425,interpolated,87.18,3,m
 AusVaccineCohort,AUS24_s002_postvax,A/Ontario/RV00796/2023,1801,interpolated,161.2,3,midpoint
 AusVaccineCohort,AUS24_s002_postvax,A/Romania/543634/2022,1008,interpolated,49.87,3,midpoint
 AusVaccineCohort,AUS24_s002_postvax,A/SENDAI/45/2023,1057,interpolated,61.99,3,midpoint
-AusVaccineCohort,AUS24_s002_postvax,A/SOUTH_AFRICA/R07876/202023,1666,interpolated,304.8,3,midpoint
-AusVaccineCohort,AUS24_s002_postvax,A/Saint-Petersburg/RII-MH144113/2023,1491,interpolated,220.3,3,midpoint
+AusVaccineCohort,AUS24_s002_postvax,A/SOUTH_AFRICA/R07876/2023,1666,interpolated,304.8,3,midpoint
+AusVaccineCohort,AUS24_s002_postvax,A/Saint-Petersburg/RII-MH144112/2023,1491,interpolated,220.3,3,midpoint
 AusVaccineCohort,AUS24_s002_postvax,A/Samut_Songkhram/THIS061/2023,1627,interpolated,264.7,3,midpoint
 AusVaccineCohort,AUS24_s002_postvax,A/Saskatchewan/SKFLU317847/2023,1511,interpolated,146.3,3,midpoint
 AusVaccineCohort,AUS24_s002_postvax,A/Schleswig-Holstein/4/2023,859.2,interpolated,41.49,3,midpoint
@@ -51,8 +51,8 @@ AusVaccineCohort,AUS24_s002_postvax,A/Solwezi/13-NIC-001/2023,1557,interpolated,
 AusVaccineCohort,AUS24_s002_postvax,A/SouthAfrica/PET28931/2023,1312,interpolated,130.5,3,midpoint
 AusVaccineCohort,AUS24_s002_postvax,A/SouthSudan/631/2023,1249,interpolated,68.99,3,midpoint
 AusVaccineCohort,AUS24_s002_postvax,A/SouthSudan/642/2023,1113,interpolated,323.4,3,midpoint
+AusVaccineCohort,AUS24_s002_postvax,A/South_Africa/K056863/2023,1422,interpolated,197.7,3,midpoint
 AusVaccineCohort,AUS24_s002_postvax,A/South_Africa/K056872/2023,852.8,interpolated,238.8,3,midpoint
-AusVaccineCohort,AUS24_s002_postvax,A/South_Africa/KO56863/2023,1422,interpolated,197.7,3,midpoint
 AusVaccineCohort,AUS24_s002_postvax,A/South_Africa/R05384/2023,614,interpolated,35.17,3,midpoint
 AusVaccineCohort,AUS24_s002_postvax,A/South_Africa/R05510/2023,3158,interpolated,676.7,3,midpoint
 AusVaccineCohort,AUS24_s002_postvax,A/South_Africa/R06240/2023,1268,interpolated,325.4,3,midpoint

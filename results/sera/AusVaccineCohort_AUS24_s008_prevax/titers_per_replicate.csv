@@ -29,9 +29,9 @@ AusVaccineCohort,AUS24_s008_prevax,A/Catalonia/NSVH102124476/2023,plate41-AATATA
 AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/R06359/2023,plate41-AGTTATGTAAAACGTG,49.99,interpolated,midpoint,51.1,49.99,0.9653,0,3.277
 AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/R06359/2023,plate41-CGCAGTACACAACAAG,56.32,interpolated,midpoint,62.02,56.32,0.8924,0,2.514
 AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/R06359/2023,plate41-CATAATGCACAAACGC,55.47,interpolated,midpoint,57.64,55.47,0.94,0,3.338
-AusVaccineCohort,AUS24_s008_prevax,A/Saint-Petersburg/RII-MH144113/2023,plate41-GCTTTTGAGAACCATT,44.52,interpolated,midpoint,45.38,44.52,0.961,0,4.248
-AusVaccineCohort,AUS24_s008_prevax,A/Saint-Petersburg/RII-MH144113/2023,plate41-ATAAAGAATCCCTTGA,40,upper,midpoint,42.25,40,0.9249,0,2.056
-AusVaccineCohort,AUS24_s008_prevax,A/Saint-Petersburg/RII-MH144113/2023,plate41-CCGGTTTTCGGGACCT,56.45,interpolated,midpoint,56.59,56.45,0.9971,0,2.315
+AusVaccineCohort,AUS24_s008_prevax,A/Saint-Petersburg/RII-MH144112/2023,plate41-GCTTTTGAGAACCATT,44.52,interpolated,midpoint,45.38,44.52,0.961,0,4.248
+AusVaccineCohort,AUS24_s008_prevax,A/Saint-Petersburg/RII-MH144112/2023,plate41-ATAAAGAATCCCTTGA,40,upper,midpoint,42.25,40,0.9249,0,2.056
+AusVaccineCohort,AUS24_s008_prevax,A/Saint-Petersburg/RII-MH144112/2023,plate41-CCGGTTTTCGGGACCT,56.45,interpolated,midpoint,56.59,56.45,0.9971,0,2.315
 AusVaccineCohort,AUS24_s008_prevax,A/Abu_Dhabi/6753/2023,plate41-TATCGCAATATGATAA,40,upper,midpoint,40,40,0.966,0,10
 AusVaccineCohort,AUS24_s008_prevax,A/Abu_Dhabi/6753/2023,plate41-TCTTGAATTTCATGGA,41.06,interpolated,midpoint,41.3,41.06,0.9724,0,10
 AusVaccineCohort,AUS24_s008_prevax,A/Abu_Dhabi/6753/2023,plate41-GCTGGTGCACAAGATT,49.91,interpolated,midpoint,50.39,49.91,0.9871,0,2.743
@@ -47,9 +47,9 @@ AusVaccineCohort,AUS24_s008_prevax,A/Surat_Thani/P152/2023,plate41-GATTCACGGCCCA
 AusVaccineCohort,AUS24_s008_prevax,A/Bhutan/0845/2023,plate41-AAGAAATTATGGCAGG,40,upper,midpoint,40,40,0.944,0,0.8
 AusVaccineCohort,AUS24_s008_prevax,A/Bhutan/0845/2023,plate41-AACAATTAATTTTTCA,51.98,interpolated,midpoint,55.18,51.98,0.9543,0,1.603
 AusVaccineCohort,AUS24_s008_prevax,A/Bhutan/0845/2023,plate41-GACAGAAACAAAATTA,44.32,interpolated,midpoint,44.67,44.32,0.9624,0,10
-AusVaccineCohort,AUS24_s008_prevax,A/SOUTH_AFRICA/R07876/202023,plate41-CTACTAGAGCAGCGAG,43.19,interpolated,midpoint,45.1,43.19,0.973,0,1.284
-AusVaccineCohort,AUS24_s008_prevax,A/SOUTH_AFRICA/R07876/202023,plate41-AGACTGTACGCGACAG,51.64,interpolated,midpoint,52.16,51.64,0.979,0,4.306
-AusVaccineCohort,AUS24_s008_prevax,A/SOUTH_AFRICA/R07876/202023,plate41-TGATTCGTCAATTCAT,51.71,interpolated,midpoint,53.34,51.71,0.9483,0,3.507
+AusVaccineCohort,AUS24_s008_prevax,A/SOUTH_AFRICA/R07876/2023,plate41-CTACTAGAGCAGCGAG,43.19,interpolated,midpoint,45.1,43.19,0.973,0,1.284
+AusVaccineCohort,AUS24_s008_prevax,A/SOUTH_AFRICA/R07876/2023,plate41-AGACTGTACGCGACAG,51.64,interpolated,midpoint,52.16,51.64,0.979,0,4.306
+AusVaccineCohort,AUS24_s008_prevax,A/SOUTH_AFRICA/R07876/2023,plate41-TGATTCGTCAATTCAT,51.71,interpolated,midpoint,53.34,51.71,0.9483,0,3.507
 AusVaccineCohort,AUS24_s008_prevax,A/Solwezi/13-NIC-001/2023,plate41-TAGTTGCCCCGACCTG,40,upper,midpoint,40,40,0.9105,0,9.998
 AusVaccineCohort,AUS24_s008_prevax,A/Solwezi/13-NIC-001/2023,plate41-CCACGTTCATTAGATG,40.05,interpolated,midpoint,40.05,40.05,1,0,10
 AusVaccineCohort,AUS24_s008_prevax,A/Solwezi/13-NIC-001/2023,plate41-AAACTTCGTGGTATAC,40,upper,midpoint,40,40,0.9891,0,4.26
@@ -83,7 +83,7 @@ AusVaccineCohort,AUS24_s008_prevax,A/Wisconsin/27/2023,plate41-CCTATAAGGCCTTACG,
 AusVaccineCohort,AUS24_s008_prevax,A/Luga/RII-11393S/2023,plate41-ATGGTTATCTTACCTT,40,upper,midpoint,40,40,0.9475,0,10
 AusVaccineCohort,AUS24_s008_prevax,A/Luga/RII-11393S/2023,plate41-CTCATTACAGAAATTG,40,upper,midpoint,40,40,0.8909,0,9.991
 AusVaccineCohort,AUS24_s008_prevax,A/Luga/RII-11393S/2023,plate41-CGTCAGAAGTTTATAA,42.49,interpolated,midpoint,42.71,42.49,0.984,0,6.376
-AusVaccineCohort,AUS24_s008_prevax,A/Bhutan/0006/2023,plate41-GAAAATCGAGCTTTAA,40,upper,midpoint,40,40,0.9587,0,3.966
+AusVaccineCohort,AUS24_s008_prevax,A/Bhutan/0006/2023,plate41-GAAAATCGAGCTTTAA,40,upper,midpoint,40,40,0.9587,0,3.965
 AusVaccineCohort,AUS24_s008_prevax,A/Bhutan/0006/2023,plate41-GACCTCCTGGGCACGC,41.93,interpolated,midpoint,42.2,41.93,0.9683,0,10
 AusVaccineCohort,AUS24_s008_prevax,A/Bhutan/0006/2023,plate41-CAAAAAGCTAATAAGT,54.44,interpolated,midpoint,55.63,54.44,0.9737,0,2.488
 AusVaccineCohort,AUS24_s008_prevax,A/Krabi/THIS050/2023,plate41-CGCGAACAACAGGGGA,52.8,interpolated,midpoint,53.26,52.8,0.9912,0,2.065
@@ -98,9 +98,9 @@ AusVaccineCohort,AUS24_s008_prevax,A/YAMAGATA/98/2023,plate41-CCCGCTAACCCTGTCT,4
 AusVaccineCohort,AUS24_s008_prevax,A/Bhutan/FLU-BTG-00988/2022,plate41-CAAGAAATGTAGTGAA,40.84,interpolated,midpoint,41.07,40.84,0.9732,0,10
 AusVaccineCohort,AUS24_s008_prevax,A/Bhutan/FLU-BTG-00988/2022,plate41-GGTTGCGTAGTTAATC,42.31,interpolated,midpoint,42.68,42.31,0.9827,0,3.976
 AusVaccineCohort,AUS24_s008_prevax,A/Bhutan/FLU-BTG-00988/2022,plate41-TCGCGGTAGATTTGCG,46.52,interpolated,midpoint,47.61,46.52,0.9758,0,2.129
-AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/KO56863/2023,plate41-CCGCTATCATTAACCC,52.84,interpolated,midpoint,52.93,52.84,0.998,0,2.241
-AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/KO56863/2023,plate41-GAGCCCGAATAGCAAG,54.76,interpolated,midpoint,56.14,54.76,0.9677,0,2.673
-AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/KO56863/2023,plate41-ATCGTCCCGGACATTT,55.16,interpolated,midpoint,60.22,55.16,0.8727,0,3.351
+AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/K056863/2023,plate41-CCGCTATCATTAACCC,52.84,interpolated,midpoint,52.93,52.84,0.998,0,2.241
+AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/K056863/2023,plate41-GAGCCCGAATAGCAAG,54.76,interpolated,midpoint,56.14,54.76,0.9677,0,2.673
+AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/K056863/2023,plate41-ATCGTCCCGGACATTT,55.16,interpolated,midpoint,60.22,55.16,0.8727,0,3.351
 AusVaccineCohort,AUS24_s008_prevax,A/Georgia/40/2023,plate41-CCATATATAAGAAACC,47.61,interpolated,midpoint,48.48,47.61,0.9799,0,2.275
 AusVaccineCohort,AUS24_s008_prevax,A/Georgia/40/2023,plate41-CCACGCACTTAAATAA,47.04,interpolated,midpoint,47.9,47.04,0.9676,0,3.674
 AusVaccineCohort,AUS24_s008_prevax,A/Georgia/40/2023,plate41-CCCATATACTCACAGA,45.39,interpolated,midpoint,46.72,45.39,0.9639,0,2.582

@@ -40,8 +40,8 @@ AusVaccineCohort,AUS24_s007_prevax,A/Oman/3011/2023,107.9,interpolated,6.909,3,m
 AusVaccineCohort,AUS24_s007_prevax,A/Ontario/RV00796/2023,109.3,interpolated,7.06,3,midpoint
 AusVaccineCohort,AUS24_s007_prevax,A/Romania/543634/2022,158.8,interpolated,8.101,3,midpoint
 AusVaccineCohort,AUS24_s007_prevax,A/SENDAI/45/2023,66.32,interpolated,8.947,3,midpoint
-AusVaccineCohort,AUS24_s007_prevax,A/SOUTH_AFRICA/R07876/202023,156.9,interpolated,6.8,3,midpoint
-AusVaccineCohort,AUS24_s007_prevax,A/Saint-Petersburg/RII-MH144113/2023,139.5,interpolated,2.815,3,midpoint
+AusVaccineCohort,AUS24_s007_prevax,A/SOUTH_AFRICA/R07876/2023,156.9,interpolated,6.8,3,midpoint
+AusVaccineCohort,AUS24_s007_prevax,A/Saint-Petersburg/RII-MH144112/2023,139.5,interpolated,2.815,3,midpoint
 AusVaccineCohort,AUS24_s007_prevax,A/Samut_Songkhram/THIS061/2023,144.5,interpolated,4.827,3,midpoint
 AusVaccineCohort,AUS24_s007_prevax,A/Saskatchewan/SKFLU317847/2023,138.3,interpolated,7.664,3,midpoint
 AusVaccineCohort,AUS24_s007_prevax,A/Schleswig-Holstein/4/2023,128.4,interpolated,6.792,3,midpoint
@@ -51,8 +51,8 @@ AusVaccineCohort,AUS24_s007_prevax,A/Solwezi/13-NIC-001/2023,85.72,interpolated,
 AusVaccineCohort,AUS24_s007_prevax,A/SouthAfrica/PET28931/2023,168.2,interpolated,11.9,3,midpoint
 AusVaccineCohort,AUS24_s007_prevax,A/SouthSudan/631/2023,94.95,interpolated,8.068,3,midpoint
 AusVaccineCohort,AUS24_s007_prevax,A/SouthSudan/642/2023,68.8,interpolated,13.93,3,midpoint
+AusVaccineCohort,AUS24_s007_prevax,A/South_Africa/K056863/2023,151.9,interpolated,17.7,3,midpoint
 AusVaccineCohort,AUS24_s007_prevax,A/South_Africa/K056872/2023,130.1,interpolated,16.26,3,midpoint
-AusVaccineCohort,AUS24_s007_prevax,A/South_Africa/KO56863/2023,151.9,interpolated,17.7,3,midpoint
 AusVaccineCohort,AUS24_s007_prevax,A/South_Africa/R05384/2023,90.27,interpolated,1.419,3,midpoint
 AusVaccineCohort,AUS24_s007_prevax,A/South_Africa/R05510/2023,272,interpolated,19.35,3,midpoint
 AusVaccineCohort,AUS24_s007_prevax,A/South_Africa/R06240/2023,215.3,interpolated,26.11,3,midpoint

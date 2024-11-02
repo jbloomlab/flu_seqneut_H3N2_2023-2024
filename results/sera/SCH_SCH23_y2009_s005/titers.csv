@@ -40,8 +40,8 @@ SCH,SCH23_y2009_s005,A/Oman/3011/2023,88.55,interpolated,3.987,3,midpoint
 SCH,SCH23_y2009_s005,A/Ontario/RV00796/2023,81.54,interpolated,4.083,3,midpoint
 SCH,SCH23_y2009_s005,A/Romania/543634/2022,180.8,interpolated,27.74,3,midpoint
 SCH,SCH23_y2009_s005,A/SENDAI/45/2023,184.5,interpolated,12.62,3,midpoint
-SCH,SCH23_y2009_s005,A/SOUTH_AFRICA/R07876/202023,98.85,interpolated,2.499,3,midpoint
-SCH,SCH23_y2009_s005,A/Saint-Petersburg/RII-MH144113/2023,78.82,interpolated,0.7001,3,midpoint
+SCH,SCH23_y2009_s005,A/SOUTH_AFRICA/R07876/2023,98.85,interpolated,2.499,3,midpoint
+SCH,SCH23_y2009_s005,A/Saint-Petersburg/RII-MH144112/2023,78.82,interpolated,0.7001,3,midpoint
 SCH,SCH23_y2009_s005,A/Samut_Songkhram/THIS061/2023,131,interpolated,18.59,3,midpoint
 SCH,SCH23_y2009_s005,A/Saskatchewan/SKFLU317847/2023,68.09,interpolated,12.71,3,midpoint
 SCH,SCH23_y2009_s005,A/Schleswig-Holstein/4/2023,127.4,interpolated,12.4,3,midpoint
@@ -51,8 +51,8 @@ SCH,SCH23_y2009_s005,A/Solwezi/13-NIC-001/2023,96.54,interpolated,25.09,3,midpoi
 SCH,SCH23_y2009_s005,A/SouthAfrica/PET28931/2023,96.32,interpolated,2.716,3,midpoint
 SCH,SCH23_y2009_s005,A/SouthSudan/631/2023,60.33,interpolated,3.9,3,midpoint
 SCH,SCH23_y2009_s005,A/SouthSudan/642/2023,42.76,upper,2.765,2,midpoint
+SCH,SCH23_y2009_s005,A/South_Africa/K056863/2023,99.97,interpolated,7.801,3,midpoint
 SCH,SCH23_y2009_s005,A/South_Africa/K056872/2023,99.68,interpolated,6.266,3,midpoint
-SCH,SCH23_y2009_s005,A/South_Africa/KO56863/2023,99.97,interpolated,7.801,3,midpoint
 SCH,SCH23_y2009_s005,A/South_Africa/R05384/2023,84.87,interpolated,6.778,3,midpoint
 SCH,SCH23_y2009_s005,A/South_Africa/R05510/2023,225,interpolated,38.24,3,midpoint
 SCH,SCH23_y2009_s005,A/South_Africa/R06240/2023,98.96,interpolated,31.64,3,midpoint

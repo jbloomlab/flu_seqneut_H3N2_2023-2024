@@ -1,10 +1,7 @@
 wells:
   B2: avg_barcode_counts_per_well
   F7: avg_barcode_counts_per_well
-barcodes:
-  CGTCCCTGGCGTGTCG: min_neut_standard_frac_per_well
-  TATATGGAATACTAAA: min_neut_standard_frac_per_well
-  TCTCCGATAGCCCTAC: min_neut_standard_frac_per_well
+barcodes: {}
 barcode_wells:
   AATGACAGCTGTCTAG H5: max_frac_infectivity_per_viral_barcode_well
   AATGACAGCTGTCTAG E6: max_frac_infectivity_per_viral_barcode_well

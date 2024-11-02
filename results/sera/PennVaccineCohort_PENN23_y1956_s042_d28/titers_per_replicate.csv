@@ -38,9 +38,9 @@ PennVaccineCohort,PENN23_y1956_s042_d28,A/Sydney/710/2023,plate35-CTTGTAAAACTATG
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Catalonia/NSVH102124476/2023,plate35-ACTGAACAGTATAACT,192.1,interpolated,midpoint,215.7,192.1,0.9284,0,1.329
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Catalonia/NSVH102124476/2023,plate35-CTAAGGGCCTGTTCTT,216.7,interpolated,midpoint,216.7,216.7,1,0,1.188
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Catalonia/NSVH102124476/2023,plate35-AATATACCGGCACTAC,196.4,interpolated,midpoint,248.6,196.4,0.8661,0,1.323
-PennVaccineCohort,PENN23_y1956_s042_d28,A/Saint-Petersburg/RII-MH144113/2023,plate35-GCTTTTGAGAACCATT,258.2,interpolated,midpoint,360.6,258.2,0.8019,0,1.511
-PennVaccineCohort,PENN23_y1956_s042_d28,A/Saint-Petersburg/RII-MH144113/2023,plate35-ATAAAGAATCCCTTGA,247.1,interpolated,midpoint,296.2,247.1,0.8718,0,1.636
-PennVaccineCohort,PENN23_y1956_s042_d28,A/Saint-Petersburg/RII-MH144113/2023,plate35-CCGGTTTTCGGGACCT,237.7,interpolated,midpoint,270.4,237.7,0.9144,0,1.455
+PennVaccineCohort,PENN23_y1956_s042_d28,A/Saint-Petersburg/RII-MH144112/2023,plate35-GCTTTTGAGAACCATT,258.2,interpolated,midpoint,360.6,258.2,0.8019,0,1.511
+PennVaccineCohort,PENN23_y1956_s042_d28,A/Saint-Petersburg/RII-MH144112/2023,plate35-ATAAAGAATCCCTTGA,247.1,interpolated,midpoint,296.2,247.1,0.8718,0,1.636
+PennVaccineCohort,PENN23_y1956_s042_d28,A/Saint-Petersburg/RII-MH144112/2023,plate35-CCGGTTTTCGGGACCT,237.7,interpolated,midpoint,270.4,237.7,0.9144,0,1.455
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Ontario/RV00796/2023,plate35-TACCATTTTGGTCCGC,221.4,interpolated,midpoint,267.4,221.4,0.8584,0,1.765
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Ontario/RV00796/2023,plate35-TCCAAACAGCGTTAAA,226.9,interpolated,midpoint,240.5,226.9,0.9524,0,1.709
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Ontario/RV00796/2023,plate35-TGGCTAGCGCACACCA,186.1,interpolated,midpoint,195.6,186.1,0.9502,0,2.113
@@ -119,9 +119,9 @@ PennVaccineCohort,PENN23_y1956_s042_d28,A/KANAGAWA/AC2316/2023,plate35-TATCCTTGA
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Cambodia/e0826360/2020_egg,plate35-AAATTCACAATATCCA,177.9,interpolated,midpoint,197.2,177.9,0.9272,0,1.526
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Cambodia/e0826360/2020_egg,plate35-TGTTGTAATCTGAATA,324,interpolated,midpoint,324.3,324,0.9993,0,1.218
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Cambodia/e0826360/2020_egg,plate35-ATAACGTTTGTGCAAA,248.3,interpolated,midpoint,320.3,248.3,0.8234,0,1.711
-PennVaccineCohort,PENN23_y1956_s042_d28,A/SOUTH_AFRICA/R07876/202023,plate35-TGATTCGTCAATTCAT,312.4,interpolated,midpoint,324.8,312.4,0.9698,0,1.588
-PennVaccineCohort,PENN23_y1956_s042_d28,A/SOUTH_AFRICA/R07876/202023,plate35-AGACTGTACGCGACAG,269.2,interpolated,midpoint,292.1,269.2,0.942,0,1.511
-PennVaccineCohort,PENN23_y1956_s042_d28,A/SOUTH_AFRICA/R07876/202023,plate35-CTACTAGAGCAGCGAG,227.3,interpolated,midpoint,249.6,227.3,0.9082,0,2.165
+PennVaccineCohort,PENN23_y1956_s042_d28,A/SOUTH_AFRICA/R07876/2023,plate35-TGATTCGTCAATTCAT,312.4,interpolated,midpoint,324.8,312.4,0.9698,0,1.588
+PennVaccineCohort,PENN23_y1956_s042_d28,A/SOUTH_AFRICA/R07876/2023,plate35-AGACTGTACGCGACAG,269.2,interpolated,midpoint,292.1,269.2,0.942,0,1.511
+PennVaccineCohort,PENN23_y1956_s042_d28,A/SOUTH_AFRICA/R07876/2023,plate35-CTACTAGAGCAGCGAG,227.3,interpolated,midpoint,249.6,227.3,0.9082,0,2.165
 PennVaccineCohort,PENN23_y1956_s042_d28,A/SouthSudan/631/2023,plate35-CCAATAAAATACGATG,279.1,interpolated,midpoint,285.2,279.1,0.9844,0,1.463
 PennVaccineCohort,PENN23_y1956_s042_d28,A/SouthSudan/631/2023,plate35-CTGAAACCTTGTCCTA,213.5,interpolated,midpoint,238.4,213.5,0.8902,0,2.255
 PennVaccineCohort,PENN23_y1956_s042_d28,A/SouthSudan/631/2023,plate35-TTAGTCATCTGGGTGC,198.8,interpolated,midpoint,223.7,198.8,0.8897,0,2.116
@@ -131,9 +131,9 @@ PennVaccineCohort,PENN23_y1956_s042_d28,A/Netherlands/01685/2023,plate35-GGCTATA
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Finland/391/2023,plate35-CCGCAATGACAATTTG,308.1,interpolated,midpoint,362.1,308.1,0.8885,0,1.561
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Finland/391/2023,plate35-TATCAATTCGGTATTA,269.3,interpolated,midpoint,342.5,269.3,0.8285,0,1.745
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Finland/391/2023,plate35-AGCTATGCCTAGTGAA,288.1,interpolated,midpoint,434.8,288.1,0.7595,0,1.594
-PennVaccineCohort,PENN23_y1956_s042_d28,A/South_Africa/KO56863/2023,plate35-GAGCCCGAATAGCAAG,274.3,interpolated,midpoint,328.2,274.3,0.8753,0,1.599
-PennVaccineCohort,PENN23_y1956_s042_d28,A/South_Africa/KO56863/2023,plate35-CCGCTATCATTAACCC,260.9,interpolated,midpoint,330.8,260.9,0.7996,0,2.157
-PennVaccineCohort,PENN23_y1956_s042_d28,A/South_Africa/KO56863/2023,plate35-ATCGTCCCGGACATTT,342.9,interpolated,midpoint,389.2,342.9,0.8719,0,2.336
+PennVaccineCohort,PENN23_y1956_s042_d28,A/South_Africa/K056863/2023,plate35-GAGCCCGAATAGCAAG,274.3,interpolated,midpoint,328.2,274.3,0.8753,0,1.599
+PennVaccineCohort,PENN23_y1956_s042_d28,A/South_Africa/K056863/2023,plate35-CCGCTATCATTAACCC,260.9,interpolated,midpoint,330.8,260.9,0.7996,0,2.157
+PennVaccineCohort,PENN23_y1956_s042_d28,A/South_Africa/K056863/2023,plate35-ATCGTCCCGGACATTT,342.9,interpolated,midpoint,389.2,342.9,0.8719,0,2.336
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Netherlands/01760/2023,plate35-AACAAGGCCAACATTT,268.3,interpolated,midpoint,327.8,268.3,0.8863,0,1.287
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Netherlands/01760/2023,plate35-CTGTGAAAAAAAATAC,204.1,interpolated,midpoint,245.5,204.1,0.8903,0,1.34
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Netherlands/01760/2023,plate35-AATCCGATAAGAGCTA,194.1,interpolated,midpoint,238.6,194.1,0.8404,0,1.864
@@ -163,7 +163,7 @@ PennVaccineCohort,PENN23_y1956_s042_d28,A/South_Africa/R07188/2023,plate35-AGTGC
 PennVaccineCohort,PENN23_y1956_s042_d28,A/South_Africa/R07188/2023,plate35-TAAACTGTAACTTACA,286.9,interpolated,midpoint,317.2,286.9,0.9155,0,1.845
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Wisconsin/27/2023,plate35-AGATGGAGGAATAAAC,300.4,interpolated,midpoint,346.8,300.4,0.9079,0,1.418
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Wisconsin/27/2023,plate35-CAAGACAAGCCCTATA,394.2,interpolated,midpoint,417.6,394.2,0.9315,0,2.558
-PennVaccineCohort,PENN23_y1956_s042_d28,A/Wisconsin/27/2023,plate35-CCTATAAGGCCTTACG,358.4,interpolated,midpoint,581.4,358.4,0.7381,0,1.534
+PennVaccineCohort,PENN23_y1956_s042_d28,A/Wisconsin/27/2023,plate35-CCTATAAGGCCTTACG,358.4,interpolated,midpoint,581.3,358.4,0.7381,0,1.534
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Busan/1301/2023,plate35-GCATTATAATCTTGTG,265.7,interpolated,midpoint,309.5,265.7,0.8419,0,2.489
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Busan/1301/2023,plate35-TAAAAGAATGATGGTC,251.4,interpolated,midpoint,284.6,251.4,0.8905,0,1.998
 PennVaccineCohort,PENN23_y1956_s042_d28,A/Busan/1301/2023,plate35-AATCCGGTTAACCCCG,222.8,interpolated,midpoint,271.5,222.8,0.8836,0,1.341

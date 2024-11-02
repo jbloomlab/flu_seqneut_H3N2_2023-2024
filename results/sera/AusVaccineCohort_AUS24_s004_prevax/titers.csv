@@ -40,8 +40,8 @@ AusVaccineCohort,AUS24_s004_prevax,A/Oman/3011/2023,118.3,interpolated,7.704,3,m
 AusVaccineCohort,AUS24_s004_prevax,A/Ontario/RV00796/2023,107,interpolated,3.664,3,midpoint
 AusVaccineCohort,AUS24_s004_prevax,A/Romania/543634/2022,196.8,interpolated,6.809,3,midpoint
 AusVaccineCohort,AUS24_s004_prevax,A/SENDAI/45/2023,107.6,interpolated,4.142,3,midpoint
-AusVaccineCohort,AUS24_s004_prevax,A/SOUTH_AFRICA/R07876/202023,132.9,interpolated,2.963,3,midpoint
-AusVaccineCohort,AUS24_s004_prevax,A/Saint-Petersburg/RII-MH144113/2023,110.4,interpolated,3.905,3,midpoint
+AusVaccineCohort,AUS24_s004_prevax,A/SOUTH_AFRICA/R07876/2023,132.9,interpolated,2.963,3,midpoint
+AusVaccineCohort,AUS24_s004_prevax,A/Saint-Petersburg/RII-MH144112/2023,110.4,interpolated,3.905,3,midpoint
 AusVaccineCohort,AUS24_s004_prevax,A/Samut_Songkhram/THIS061/2023,119,interpolated,4.214,3,midpoint
 AusVaccineCohort,AUS24_s004_prevax,A/Saskatchewan/SKFLU317847/2023,62.67,interpolated,9.516,3,midpoint
 AusVaccineCohort,AUS24_s004_prevax,A/Schleswig-Holstein/4/2023,148.4,interpolated,22.92,3,midpoint
@@ -51,8 +51,8 @@ AusVaccineCohort,AUS24_s004_prevax,A/Solwezi/13-NIC-001/2023,80.29,interpolated,
 AusVaccineCohort,AUS24_s004_prevax,A/SouthAfrica/PET28931/2023,131.7,interpolated,7.137,3,midpoint
 AusVaccineCohort,AUS24_s004_prevax,A/SouthSudan/631/2023,155.7,interpolated,3.895,3,midpoint
 AusVaccineCohort,AUS24_s004_prevax,A/SouthSudan/642/2023,174.3,interpolated,14.49,3,midpoint
+AusVaccineCohort,AUS24_s004_prevax,A/South_Africa/K056863/2023,119.9,interpolated,3.927,3,midpoint
 AusVaccineCohort,AUS24_s004_prevax,A/South_Africa/K056872/2023,140.1,interpolated,4.66,3,midpoint
-AusVaccineCohort,AUS24_s004_prevax,A/South_Africa/KO56863/2023,119.9,interpolated,3.927,3,midpoint
 AusVaccineCohort,AUS24_s004_prevax,A/South_Africa/R05384/2023,67.64,interpolated,9.724,3,midpoint
 AusVaccineCohort,AUS24_s004_prevax,A/South_Africa/R05510/2023,206.4,interpolated,31.51,3,midpoint
 AusVaccineCohort,AUS24_s004_prevax,A/South_Africa/R06240/2023,116.5,interpolated,9.242,3,midpoint

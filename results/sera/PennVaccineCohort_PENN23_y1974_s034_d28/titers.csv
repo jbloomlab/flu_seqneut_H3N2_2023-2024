@@ -39,8 +39,8 @@ PennVaccineCohort,PENN23_y1974_s034_d28,A/Oman/3011/2023,736.3,interpolated,79.6
 PennVaccineCohort,PENN23_y1974_s034_d28,A/Ontario/RV00796/2023,693.2,interpolated,20.29,6,midpoint
 PennVaccineCohort,PENN23_y1974_s034_d28,A/Romania/543634/2022,1374,interpolated,121.9,6,midpoint
 PennVaccineCohort,PENN23_y1974_s034_d28,A/SENDAI/45/2023,990.9,interpolated,83.01,6,midpoint
-PennVaccineCohort,PENN23_y1974_s034_d28,A/SOUTH_AFRICA/R07876/202023,1042,interpolated,108.2,6,midpoint
-PennVaccineCohort,PENN23_y1974_s034_d28,A/Saint-Petersburg/RII-MH144113/2023,901.2,interpolated,60.4,6,midpoint
+PennVaccineCohort,PENN23_y1974_s034_d28,A/SOUTH_AFRICA/R07876/2023,1042,interpolated,108.2,6,midpoint
+PennVaccineCohort,PENN23_y1974_s034_d28,A/Saint-Petersburg/RII-MH144112/2023,901.2,interpolated,60.4,6,midpoint
 PennVaccineCohort,PENN23_y1974_s034_d28,A/Samut_Songkhram/THIS061/2023,1135,interpolated,79.65,6,midpoint
 PennVaccineCohort,PENN23_y1974_s034_d28,A/Saskatchewan/SKFLU317847/2023,2979,interpolated,133.6,6,midpoint
 PennVaccineCohort,PENN23_y1974_s034_d28,A/Schleswig-Holstein/4/2023,1475,interpolated,135.4,6,midpoint
@@ -50,8 +50,8 @@ PennVaccineCohort,PENN23_y1974_s034_d28,A/Solwezi/13-NIC-001/2023,847.8,interpol
 PennVaccineCohort,PENN23_y1974_s034_d28,A/SouthAfrica/PET28931/2023,859.9,interpolated,55.56,6,midpoint
 PennVaccineCohort,PENN23_y1974_s034_d28,A/SouthSudan/631/2023,1095,interpolated,82.95,6,midpoint
 PennVaccineCohort,PENN23_y1974_s034_d28,A/SouthSudan/642/2023,881.3,interpolated,181.6,6,midpoint
+PennVaccineCohort,PENN23_y1974_s034_d28,A/South_Africa/K056863/2023,1041,interpolated,86.64,6,midpoint
 PennVaccineCohort,PENN23_y1974_s034_d28,A/South_Africa/K056872/2023,960.2,interpolated,137.9,6,midpoint
-PennVaccineCohort,PENN23_y1974_s034_d28,A/South_Africa/KO56863/2023,1041,interpolated,86.64,6,midpoint
 PennVaccineCohort,PENN23_y1974_s034_d28,A/South_Africa/R05384/2023,1101,interpolated,81.33,6,midpoint
 PennVaccineCohort,PENN23_y1974_s034_d28,A/South_Africa/R05510/2023,1319,interpolated,110.7,6,midpoint
 PennVaccineCohort,PENN23_y1974_s034_d28,A/South_Africa/R06240/2023,1022,interpolated,37.17,6,midpoint

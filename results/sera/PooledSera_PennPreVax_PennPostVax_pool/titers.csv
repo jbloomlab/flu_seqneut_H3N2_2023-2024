@@ -40,8 +40,8 @@ PooledSera,PennPreVax_PennPostVax_pool,A/Oman/3011/2023,314.4,interpolated,19.82
 PooledSera,PennPreVax_PennPostVax_pool,A/Ontario/RV00796/2023,244.3,interpolated,8.878,3,midpoint
 PooledSera,PennPreVax_PennPostVax_pool,A/Romania/543634/2022,487,interpolated,32.55,3,midpoint
 PooledSera,PennPreVax_PennPostVax_pool,A/SENDAI/45/2023,266.9,interpolated,7.752,3,midpoint
-PooledSera,PennPreVax_PennPostVax_pool,A/SOUTH_AFRICA/R07876/202023,361,interpolated,23.3,3,midpoint
-PooledSera,PennPreVax_PennPostVax_pool,A/Saint-Petersburg/RII-MH144113/2023,255.8,interpolated,18.08,3,midpoint
+PooledSera,PennPreVax_PennPostVax_pool,A/SOUTH_AFRICA/R07876/2023,361,interpolated,23.3,3,midpoint
+PooledSera,PennPreVax_PennPostVax_pool,A/Saint-Petersburg/RII-MH144112/2023,255.8,interpolated,18.08,3,midpoint
 PooledSera,PennPreVax_PennPostVax_pool,A/Samut_Songkhram/THIS061/2023,312.4,interpolated,33.03,3,midpoint
 PooledSera,PennPreVax_PennPostVax_pool,A/Saskatchewan/SKFLU317847/2023,261.5,interpolated,39.83,3,midpoint
 PooledSera,PennPreVax_PennPostVax_pool,A/Schleswig-Holstein/4/2023,370.3,interpolated,22.84,3,midpoint
@@ -51,8 +51,8 @@ PooledSera,PennPreVax_PennPostVax_pool,A/Solwezi/13-NIC-001/2023,203,interpolate
 PooledSera,PennPreVax_PennPostVax_pool,A/SouthAfrica/PET28931/2023,332.8,interpolated,22.84,3,midpoint
 PooledSera,PennPreVax_PennPostVax_pool,A/SouthSudan/631/2023,224,interpolated,13.04,3,midpoint
 PooledSera,PennPreVax_PennPostVax_pool,A/SouthSudan/642/2023,249.2,interpolated,20.69,3,midpoint
+PooledSera,PennPreVax_PennPostVax_pool,A/South_Africa/K056863/2023,339.8,interpolated,48.35,3,midpoint
 PooledSera,PennPreVax_PennPostVax_pool,A/South_Africa/K056872/2023,348.7,interpolated,23.24,3,midpoint
-PooledSera,PennPreVax_PennPostVax_pool,A/South_Africa/KO56863/2023,339.8,interpolated,48.35,3,midpoint
 PooledSera,PennPreVax_PennPostVax_pool,A/South_Africa/R05384/2023,334.7,interpolated,13.65,3,midpoint
 PooledSera,PennPreVax_PennPostVax_pool,A/South_Africa/R05510/2023,567.4,interpolated,49.03,3,midpoint
 PooledSera,PennPreVax_PennPostVax_pool,A/South_Africa/R06240/2023,349.8,interpolated,40.99,3,midpoint

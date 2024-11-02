@@ -40,8 +40,8 @@ PennVaccineCohort,PENN23_y1964_s006_d0,A/Oman/3011/2023,43.5,interpolated,1.472,
 PennVaccineCohort,PENN23_y1964_s006_d0,A/Ontario/RV00796/2023,40,upper,0,3,midpoint
 PennVaccineCohort,PENN23_y1964_s006_d0,A/Romania/543634/2022,132,interpolated,14.78,3,midpoint
 PennVaccineCohort,PENN23_y1964_s006_d0,A/SENDAI/45/2023,67.36,interpolated,5.901,3,midpoint
-PennVaccineCohort,PENN23_y1964_s006_d0,A/SOUTH_AFRICA/R07876/202023,65.55,interpolated,5.978,3,midpoint
-PennVaccineCohort,PENN23_y1964_s006_d0,A/Saint-Petersburg/RII-MH144113/2023,53.91,interpolated,5.196,3,midpoint
+PennVaccineCohort,PENN23_y1964_s006_d0,A/SOUTH_AFRICA/R07876/2023,65.55,interpolated,5.978,3,midpoint
+PennVaccineCohort,PENN23_y1964_s006_d0,A/Saint-Petersburg/RII-MH144112/2023,53.91,interpolated,5.196,3,midpoint
 PennVaccineCohort,PENN23_y1964_s006_d0,A/Samut_Songkhram/THIS061/2023,76.22,interpolated,3.853,3,midpoint
 PennVaccineCohort,PENN23_y1964_s006_d0,A/Saskatchewan/SKFLU317847/2023,104.4,interpolated,3.103,3,midpoint
 PennVaccineCohort,PENN23_y1964_s006_d0,A/Schleswig-Holstein/4/2023,125.2,interpolated,10.24,3,midpoint
@@ -51,8 +51,8 @@ PennVaccineCohort,PENN23_y1964_s006_d0,A/Solwezi/13-NIC-001/2023,40.54,interpola
 PennVaccineCohort,PENN23_y1964_s006_d0,A/SouthAfrica/PET28931/2023,64.96,interpolated,9.892,3,midpoint
 PennVaccineCohort,PENN23_y1964_s006_d0,A/SouthSudan/631/2023,40,upper,0,3,midpoint
 PennVaccineCohort,PENN23_y1964_s006_d0,A/SouthSudan/642/2023,40,upper,0,3,midpoint
+PennVaccineCohort,PENN23_y1964_s006_d0,A/South_Africa/K056863/2023,92.87,interpolated,6.764,3,midpoint
 PennVaccineCohort,PENN23_y1964_s006_d0,A/South_Africa/K056872/2023,98.04,interpolated,21.5,3,midpoint
-PennVaccineCohort,PENN23_y1964_s006_d0,A/South_Africa/KO56863/2023,92.87,interpolated,6.764,3,midpoint
 PennVaccineCohort,PENN23_y1964_s006_d0,A/South_Africa/R05384/2023,74.2,interpolated,4.905,3,midpoint
 PennVaccineCohort,PENN23_y1964_s006_d0,A/South_Africa/R05510/2023,132.7,interpolated,9.022,3,midpoint
 PennVaccineCohort,PENN23_y1964_s006_d0,A/South_Africa/R06240/2023,100.4,interpolated,10.72,3,midpoint
