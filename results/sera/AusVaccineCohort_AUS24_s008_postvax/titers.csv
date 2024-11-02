@@ -40,8 +40,8 @@ AusVaccineCohort,AUS24_s008_postvax,A/Oman/3011/2023,782.3,interpolated,74.88,3,
 AusVaccineCohort,AUS24_s008_postvax,A/Ontario/RV00796/2023,295.3,interpolated,15.42,3,midpoint
 AusVaccineCohort,AUS24_s008_postvax,A/Romania/543634/2022,1015,interpolated,263.1,3,midpoint
 AusVaccineCohort,AUS24_s008_postvax,A/SENDAI/45/2023,353.1,interpolated,83.98,3,midpoint
-AusVaccineCohort,AUS24_s008_postvax,A/SOUTH_AFRICA/R07876/202023,1464,interpolated,148.4,3,midpoint
-AusVaccineCohort,AUS24_s008_postvax,A/Saint-Petersburg/RII-MH144113/2023,320.6,interpolated,29.58,3,midpoint
+AusVaccineCohort,AUS24_s008_postvax,A/SOUTH_AFRICA/R07876/2023,1464,interpolated,148.4,3,midpoint
+AusVaccineCohort,AUS24_s008_postvax,A/Saint-Petersburg/RII-MH144112/2023,320.6,interpolated,29.58,3,midpoint
 AusVaccineCohort,AUS24_s008_postvax,A/Samut_Songkhram/THIS061/2023,1320,interpolated,189.4,3,midpoint
 AusVaccineCohort,AUS24_s008_postvax,A/Saskatchewan/SKFLU317847/2023,806.2,interpolated,115,3,midpoint
 AusVaccineCohort,AUS24_s008_postvax,A/Schleswig-Holstein/4/2023,1012,interpolated,74.16,3,midpoint
@@ -51,8 +51,8 @@ AusVaccineCohort,AUS24_s008_postvax,A/Solwezi/13-NIC-001/2023,898.1,interpolated
 AusVaccineCohort,AUS24_s008_postvax,A/SouthAfrica/PET28931/2023,800.5,interpolated,45.74,3,midpoint
 AusVaccineCohort,AUS24_s008_postvax,A/SouthSudan/631/2023,369.2,interpolated,6.205,3,midpoint
 AusVaccineCohort,AUS24_s008_postvax,A/SouthSudan/642/2023,350.9,interpolated,33.25,3,midpoint
+AusVaccineCohort,AUS24_s008_postvax,A/South_Africa/K056863/2023,1007,interpolated,90.01,3,midpoint
 AusVaccineCohort,AUS24_s008_postvax,A/South_Africa/K056872/2023,718.3,interpolated,97.8,3,midpoint
-AusVaccineCohort,AUS24_s008_postvax,A/South_Africa/KO56863/2023,1007,interpolated,90.01,3,midpoint
 AusVaccineCohort,AUS24_s008_postvax,A/South_Africa/R05384/2023,1119,interpolated,456.9,3,midpoint
 AusVaccineCohort,AUS24_s008_postvax,A/South_Africa/R05510/2023,2520,interpolated,183.5,3,midpoint
 AusVaccineCohort,AUS24_s008_postvax,A/South_Africa/R06240/2023,1840,interpolated,117.1,3,midpoint

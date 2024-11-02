@@ -40,8 +40,8 @@ AusVaccineCohort,AUS24_s008_prevax,A/Oman/3011/2023,48.06,interpolated,3.778,3,m
 AusVaccineCohort,AUS24_s008_prevax,A/Ontario/RV00796/2023,41.06,interpolated,1.783,3,midpoint
 AusVaccineCohort,AUS24_s008_prevax,A/Romania/543634/2022,91.3,interpolated,0.6238,3,midpoint
 AusVaccineCohort,AUS24_s008_prevax,A/SENDAI/45/2023,50.3,interpolated,5.056,3,midpoint
-AusVaccineCohort,AUS24_s008_prevax,A/SOUTH_AFRICA/R07876/202023,51.64,interpolated,2.829,3,midpoint
-AusVaccineCohort,AUS24_s008_prevax,A/Saint-Petersburg/RII-MH144113/2023,44.52,interpolated,4.907,3,midpoint
+AusVaccineCohort,AUS24_s008_prevax,A/SOUTH_AFRICA/R07876/2023,51.64,interpolated,2.829,3,midpoint
+AusVaccineCohort,AUS24_s008_prevax,A/Saint-Petersburg/RII-MH144112/2023,44.52,interpolated,4.907,3,midpoint
 AusVaccineCohort,AUS24_s008_prevax,A/Samut_Songkhram/THIS061/2023,49.5,interpolated,6.677,3,midpoint
 AusVaccineCohort,AUS24_s008_prevax,A/Saskatchewan/SKFLU317847/2023,44.4,interpolated,1.051,3,midpoint
 AusVaccineCohort,AUS24_s008_prevax,A/Schleswig-Holstein/4/2023,69.95,interpolated,3.674,3,midpoint
@@ -51,8 +51,8 @@ AusVaccineCohort,AUS24_s008_prevax,A/Solwezi/13-NIC-001/2023,40,upper,0.01633,3,
 AusVaccineCohort,AUS24_s008_prevax,A/SouthAfrica/PET28931/2023,66.54,interpolated,3.134,3,midpoint
 AusVaccineCohort,AUS24_s008_prevax,A/SouthSudan/631/2023,40,upper,0.4577,3,midpoint
 AusVaccineCohort,AUS24_s008_prevax,A/SouthSudan/642/2023,40,upper,0,3,midpoint
+AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/K056863/2023,54.76,interpolated,0.7173,3,midpoint
 AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/K056872/2023,43.46,interpolated,1.125,3,midpoint
-AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/KO56863/2023,54.76,interpolated,0.7173,3,midpoint
 AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/R05384/2023,40,upper,0,3,midpoint
 AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/R05510/2023,139.8,interpolated,22.68,3,midpoint
 AusVaccineCohort,AUS24_s008_prevax,A/South_Africa/R06240/2023,70.55,interpolated,8.005,3,midpoint

@@ -40,8 +40,8 @@ SCH,SCH23_y2021_s056,A/Oman/3011/2023,5226,interpolated,223,3,midpoint
 SCH,SCH23_y2021_s056,A/Ontario/RV00796/2023,5964,interpolated,673.6,3,midpoint
 SCH,SCH23_y2021_s056,A/Romania/543634/2022,5781,interpolated,588,3,midpoint
 SCH,SCH23_y2021_s056,A/SENDAI/45/2023,5869,interpolated,659,3,midpoint
-SCH,SCH23_y2021_s056,A/SOUTH_AFRICA/R07876/202023,7535,interpolated,337.5,3,midpoint
-SCH,SCH23_y2021_s056,A/Saint-Petersburg/RII-MH144113/2023,6124,interpolated,741,3,midpoint
+SCH,SCH23_y2021_s056,A/SOUTH_AFRICA/R07876/2023,7535,interpolated,337.5,3,midpoint
+SCH,SCH23_y2021_s056,A/Saint-Petersburg/RII-MH144112/2023,6124,interpolated,741,3,midpoint
 SCH,SCH23_y2021_s056,A/Samut_Songkhram/THIS061/2023,6473,interpolated,366.3,3,midpoint
 SCH,SCH23_y2021_s056,A/Saskatchewan/SKFLU317847/2023,5328,interpolated,836.8,3,midpoint
 SCH,SCH23_y2021_s056,A/Schleswig-Holstein/4/2023,5383,interpolated,104.9,3,midpoint
@@ -51,8 +51,8 @@ SCH,SCH23_y2021_s056,A/Solwezi/13-NIC-001/2023,5580,interpolated,79.36,3,midpoin
 SCH,SCH23_y2021_s056,A/SouthAfrica/PET28931/2023,6074,interpolated,456.7,3,midpoint
 SCH,SCH23_y2021_s056,A/SouthSudan/631/2023,4078,interpolated,251.9,3,midpoint
 SCH,SCH23_y2021_s056,A/SouthSudan/642/2023,5267,interpolated,1291,3,midpoint
+SCH,SCH23_y2021_s056,A/South_Africa/K056863/2023,5425,interpolated,652.6,3,midpoint
 SCH,SCH23_y2021_s056,A/South_Africa/K056872/2023,5146,interpolated,931,3,midpoint
-SCH,SCH23_y2021_s056,A/South_Africa/KO56863/2023,5425,interpolated,652.6,3,midpoint
 SCH,SCH23_y2021_s056,A/South_Africa/R05384/2023,5729,interpolated,1055,3,midpoint
 SCH,SCH23_y2021_s056,A/South_Africa/R05510/2023,7389,interpolated,426.5,3,midpoint
 SCH,SCH23_y2021_s056,A/South_Africa/R06240/2023,6502,interpolated,776.6,3,midpoint
@@ -75,5 +75,5 @@ SCH,SCH23_y2021_s056,A/Texas/50/2012_X-223A_(13/252),2298,interpolated,409.9,3,m
 SCH,SCH23_y2021_s056,A/Thailand/8/2022,1.09e+04,interpolated,345.1,3,midpoint
 SCH,SCH23_y2021_s056,A/Townsville/68/2023,6458,interpolated,189.4,3,midpoint
 SCH,SCH23_y2021_s056,A/Victoria/1033/2023,6254,interpolated,592.1,3,midpoint
-SCH,SCH23_y2021_s056,A/Wisconsin/27/2023,5805,interpolated,96.75,3,midpoint
+SCH,SCH23_y2021_s056,A/Wisconsin/27/2023,5805,interpolated,96.74,3,midpoint
 SCH,SCH23_y2021_s056,A/YAMAGATA/98/2023,6358,interpolated,993.4,3,midpoint

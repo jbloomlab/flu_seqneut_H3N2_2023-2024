@@ -1,10 +1,7 @@
 wells:
   B11: avg_barcode_counts_per_well
   F2: avg_barcode_counts_per_well
-barcodes:
-  CGTCCCTGGCGTGTCG: min_neut_standard_frac_per_well
-  TATATGGAATACTAAA: min_neut_standard_frac_per_well
-  TCTCCGATAGCCCTAC: min_neut_standard_frac_per_well
+barcodes: {}
 barcode_wells:
   AATGACAGCTGTCTAG A12: min_no_serum_count_per_viral_barcode_well
   AATGACAGCTGTCTAG B12: min_no_serum_count_per_viral_barcode_well

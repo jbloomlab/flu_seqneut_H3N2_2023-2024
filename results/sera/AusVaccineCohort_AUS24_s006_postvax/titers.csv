@@ -40,8 +40,8 @@ AusVaccineCohort,AUS24_s006_postvax,A/Oman/3011/2023,423.8,interpolated,13.13,3,
 AusVaccineCohort,AUS24_s006_postvax,A/Ontario/RV00796/2023,385.7,interpolated,24.54,3,midpoint
 AusVaccineCohort,AUS24_s006_postvax,A/Romania/543634/2022,307.4,interpolated,48.36,3,midpoint
 AusVaccineCohort,AUS24_s006_postvax,A/SENDAI/45/2023,177,interpolated,25.19,3,midpoint
-AusVaccineCohort,AUS24_s006_postvax,A/SOUTH_AFRICA/R07876/202023,410.9,interpolated,20.15,3,midpoint
-AusVaccineCohort,AUS24_s006_postvax,A/Saint-Petersburg/RII-MH144113/2023,389.5,interpolated,26.88,3,midpoint
+AusVaccineCohort,AUS24_s006_postvax,A/SOUTH_AFRICA/R07876/2023,410.9,interpolated,20.15,3,midpoint
+AusVaccineCohort,AUS24_s006_postvax,A/Saint-Petersburg/RII-MH144112/2023,389.5,interpolated,26.88,3,midpoint
 AusVaccineCohort,AUS24_s006_postvax,A/Samut_Songkhram/THIS061/2023,540.3,interpolated,50.27,3,midpoint
 AusVaccineCohort,AUS24_s006_postvax,A/Saskatchewan/SKFLU317847/2023,614.4,interpolated,53.65,3,midpoint
 AusVaccineCohort,AUS24_s006_postvax,A/Schleswig-Holstein/4/2023,290,interpolated,19.75,3,midpoint
@@ -51,8 +51,8 @@ AusVaccineCohort,AUS24_s006_postvax,A/Solwezi/13-NIC-001/2023,317.3,interpolated
 AusVaccineCohort,AUS24_s006_postvax,A/SouthAfrica/PET28931/2023,460.3,interpolated,49.52,3,midpoint
 AusVaccineCohort,AUS24_s006_postvax,A/SouthSudan/631/2023,165.1,interpolated,4.547,3,midpoint
 AusVaccineCohort,AUS24_s006_postvax,A/SouthSudan/642/2023,126.6,interpolated,10.65,3,midpoint
+AusVaccineCohort,AUS24_s006_postvax,A/South_Africa/K056863/2023,522.8,interpolated,11.73,3,midpoint
 AusVaccineCohort,AUS24_s006_postvax,A/South_Africa/K056872/2023,355.6,interpolated,28.73,3,midpoint
-AusVaccineCohort,AUS24_s006_postvax,A/South_Africa/KO56863/2023,522.8,interpolated,11.73,3,midpoint
 AusVaccineCohort,AUS24_s006_postvax,A/South_Africa/R05384/2023,175.2,interpolated,14.65,3,midpoint
 AusVaccineCohort,AUS24_s006_postvax,A/South_Africa/R05510/2023,711.1,interpolated,66.78,3,midpoint
 AusVaccineCohort,AUS24_s006_postvax,A/South_Africa/R06240/2023,505.7,interpolated,40.48,3,midpoint

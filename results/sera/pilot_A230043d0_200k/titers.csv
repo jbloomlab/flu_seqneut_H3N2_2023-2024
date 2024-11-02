@@ -40,8 +40,8 @@ pilot,A230043d0_200k,A/Oman/3011/2023,1256,interpolated,451.5,3,midpoint
 pilot,A230043d0_200k,A/Ontario/RV00796/2023,1382,interpolated,89.53,3,midpoint
 pilot,A230043d0_200k,A/Romania/543634/2022,1685,interpolated,130.4,3,midpoint
 pilot,A230043d0_200k,A/SENDAI/45/2023,882.1,interpolated,164.8,3,midpoint
-pilot,A230043d0_200k,A/SOUTH_AFRICA/R07876/202023,1868,interpolated,123.8,3,midpoint
-pilot,A230043d0_200k,A/Saint-Petersburg/RII-MH144113/2023,1393,interpolated,125.4,3,midpoint
+pilot,A230043d0_200k,A/SOUTH_AFRICA/R07876/2023,1868,interpolated,123.8,3,midpoint
+pilot,A230043d0_200k,A/Saint-Petersburg/RII-MH144112/2023,1393,interpolated,125.4,3,midpoint
 pilot,A230043d0_200k,A/Samut_Songkhram/THIS061/2023,1564,interpolated,165,3,midpoint
 pilot,A230043d0_200k,A/Saskatchewan/SKFLU317847/2023,1659,interpolated,170,3,midpoint
 pilot,A230043d0_200k,A/Schleswig-Holstein/4/2023,1923,interpolated,294.7,3,midpoint
@@ -51,8 +51,8 @@ pilot,A230043d0_200k,A/Solwezi/13-NIC-001/2023,2001,interpolated,364.9,3,midpoin
 pilot,A230043d0_200k,A/SouthAfrica/PET28931/2023,1566,interpolated,520.7,3,midpoint
 pilot,A230043d0_200k,A/SouthSudan/631/2023,1378,interpolated,67.52,3,midpoint
 pilot,A230043d0_200k,A/SouthSudan/642/2023,1316,interpolated,105,3,midpoint
+pilot,A230043d0_200k,A/South_Africa/K056863/2023,2022,interpolated,98.02,3,midpoint
 pilot,A230043d0_200k,A/South_Africa/K056872/2023,1105,interpolated,235.3,3,midpoint
-pilot,A230043d0_200k,A/South_Africa/KO56863/2023,2022,interpolated,98.02,3,midpoint
 pilot,A230043d0_200k,A/South_Africa/R05384/2023,1898,interpolated,363.6,3,midpoint
 pilot,A230043d0_200k,A/South_Africa/R05510/2023,1568,interpolated,240.3,3,midpoint
 pilot,A230043d0_200k,A/South_Africa/R06240/2023,1324,interpolated,218.6,3,midpoint
