@@ -9,9 +9,9 @@ This directory contains the analysis performed to select strains and the design 
 * Designing the actual HA barcoded construct sequences [notebooks/design_H3_HAconstructs.ipynb](notebooks/design_H3_HAconstructs.ipynb)
 
 The most relevant results (HA sequences, sequence IDs) are placed in [results/](results/), specifically:
-* The trimmed HA1 sequences are placed in [non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_HA1.fasta](non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_HA1.fasta)
-* The HA ectodomain sequences (with the H3 transmembrane domain removed) are placed in [non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_HA_ectodomain.fasta](non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_HA_ectodomain.fasta).
-* The chimeric HA protein construct sequences with upstream signal peptide fixed to WSN sequence, downstream transmembrane domain fixed to H3 consensus, and downstream C-terminal tail fixed to WSN sequence are listed in [non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_constructs.fasta](non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_constructs.fasta)
+* The trimmed HA1 sequences are placed in [results/2023-2024_H3_library_protein_HA1.fasta](results/2023-2024_H3_library_protein_HA1.fasta)
+* The HA ectodomain sequences (with the H3 transmembrane domain removed) are placed in [results/2023-2024_H3_library_protein_HA_ectodomain.fasta](results/2023-2024_H3_library_protein_HA_ectodomain.fasta).
+* The chimeric HA protein construct sequences with upstream signal peptide fixed to WSN sequence, downstream transmembrane domain fixed to H3 consensus, and downstream C-terminal tail fixed to WSN sequence are listed in [results/2023-2024_H3_library_protein_constructs.fasta](results/2023-2024_H3_library_protein_constructs.fasta)
 
 The rest of this README contains the **overview (*section 1*)** and the details of **strain choice (*section 2*)** and **barcode design (*section 3*)** involved in designing a library for `seqneut` assays.
 
@@ -81,7 +81,7 @@ Repeat the above commands for the 2y tree. Here are the commands I used:
         | csvtk uniq -t -f haplotype > auspice_haplotypes/representative_strains_per_haplotype_2y.tsv
 
 ### 2.3. Download and process Nextclade datasets
-For the next steps, I needed a Nextclade metadata file [data/nextclade_metadata.tsv](data/nextclade_metadata.tsv) file from John Huddleston (Bedford lab), which 
+For the next steps, I needed a Nextclade metadata file [data/nextclade_metadata_h3n2_2023-11-21.tsv](data/nextclade_metadata_h3n2_2023-11-21.tsv) file from John Huddleston (Bedford lab), which 
 I don't have permissions to create, and which John generated for me with the following commands: 
 
     aws s3 cp s3://nextstrain-data-private/files/workflows/seasonal-flu/h3n2/metadata.tsv.xz .
@@ -132,6 +132,11 @@ Annotate NextClade table with HA1 haplotype counts, select a representative samp
     | csvtk rename -t -f "count" -n "HA1_haplotype_count" > nextclade_haplotypes/representative_strains_per_HA1_haplotype_nextclade.tsv
 
 ### 2.5. Run interactive Jupyter Notebook
+First, build and activate the conda environment placed in [environments/library_environment.yaml](environments/library_environment.yaml) with:
+
+    conda env create -f environments/library_environment.yaml
+    conda activate library_design
+    
 Then, run the Jupyter Notebook [analyze_library_HA_sequences.ipynb](analyze_library_HA_sequences.ipynb) interactively to analyze all Nextstrain and Nextclade haplotypes together. 
 That notebook is annotated with details on how we finalized the set of sequences included in the library. 
 
@@ -152,11 +157,17 @@ The barcoded construct used in these experiments is similar to that described in
 (C) The spike-in control RNA barcoded construct, which is identical to that described in [Loes et al (2024)](https://journals.asm.org/doi/10.1128/jvi.00689-24).
 
 ### 3.1. Create barcoded construct sequences from HA alignments
-First, align the HA sequences of interest. We used MAFFT and placed these alignments in [data/alignments/](data/alignments/) and create the construct sequences in an interactive Jupyter notebook placed in [notebooks/design_H3_HAconstructs.ipynb](notebooks/design_H3_HAconstructs.ipynb).
-The final output of this notebook are:
-* A directory of [ordersheets/](ordersheets/) containing tables including columns `name` and `sequence` required for ordering constructs from Twist
-* A table of library strains with columns `library_ID` (a short ID used in cloning), `plasmid` (the Bloom lab plasmid log name), `strain-name`, `epi` (a GISAID ID associated with each strain) and `expected_seq` (the HA construct sequences, minus the barcode)
-* The actual sequences in FASTA format:
-    * The trimmed HA1 sequences are placed in [non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_HA1.fasta](non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_HA1.fasta)
-    * The HA ectodomain sequences (with the H3 transmembrane domain removed) are placed in [non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_HA_ectodomain.fasta](non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_HA_ectodomain.fasta).
-    * The chimeric HA protein construct sequences with upstream signal peptide fixed to WSN sequence, downstream transmembrane domain fixed to H3 consensus, and downstream C-terminal tail fixed to WSN sequence are listed in [non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_constructs.fasta](non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_constructs.fasta)
+First, align the HA sequences of interest. We used MAFFT and placed these alignments in [data/alignments/](data/alignments/). Activate the `library_design` conda environment with:
+
+    conda activate library_design
+
+Then, create the construct sequences by running the interactive Jupyter notebook placed in [notebooks/design_H3_HAconstructs.ipynb](notebooks/design_H3_HAconstructs.ipynb). 
+
+### 3.2 Output of construct design
+The final output of the above notebook are:
+* A directory of [results/ordersheets/](results/ordersheets/) containing tables including columns `name` and `sequence` required for ordering constructs from Twist
+* A table of library strains with columns `library_ID` (a short ID used in cloning), `plasmid` (the Bloom lab plasmid log name), `strain-name`, `epi` (a GISAID ID associated with each strain) and `expected_seq` (the HA construct sequences, minus the barcode) placed in [results/library_ID_sheet.csv](results/library_ID_sheet.csv)
+* The actual HA library sequences in FASTA format:
+    * The trimmed HA1 sequences are placed in [results/2023-2024_H3_library_protein_HA1.fasta](results/2023-2024_H3_library_protein_HA1.fasta)
+    * The HA ectodomain sequences (with the H3 transmembrane domain removed) are placed in [results/2023-2024_H3_library_protein_HA_ectodomain.fasta](results/2023-2024_H3_library_protein_HA_ectodomain.fasta).
+    * The chimeric HA protein construct sequences with upstream signal peptide fixed to WSN sequence, downstream transmembrane domain fixed to H3 consensus, and downstream C-terminal tail fixed to WSN sequence are listed in [results/2023-2024_H3_library_protein_constructs.fasta](results/2023-2024_H3_library_protein_constructs.fasta)
