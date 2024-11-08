@@ -19,7 +19,7 @@ The rest of this README contains the **overview (*section 1*)** and the details 
 ## 1. Library design overview
 There were several approaches to subselect pdmH1N1 and H3N2 strains for the HA variant libraries, keeping in mind an overall library size is limited to ~100 HA variants. 
 
-The first of these is [Nextstrain](https://nextstrain.org/), a web-based tool that builds subsampled phylogenetic trees for multiple time frames (e.g., 6-month, 2-year, etc.). In addition to clade and subclade levels of influenza diversity, Nextstrain also defines **derived haplotypes**, which are strain groupings within subclades containing additional HA1 amino acid mutations that achieve a given threshold of descendent/children strains. I selected a single representative strain from each derived haplotype by choosing a strain closest to the node of the defined haplotype sequence. 
+The first of these is [Nextstrain](https://nextstrain.org/), a web-based tool that builds subsampled phylogenetic trees for multiple time frames (e.g., 6-month, 2-year, etc.). In addition to clade and subclade levels of influenza diversity, Nextstrain also defines **derived haplotypes**, which are strain groupings within subclades containing additional HA1 amino acid mutations that achieve a given threshold of descendent/children strains. I selected a single representative strain from each derived haplotype by choosing a strain closest to the node of the defined haplotype sequence. The JSON format Nextstrain trees we used are placed in [data/nextstrain_trees/](data/nextstrain_trees/).
 
 Additionally, [Nextclade](https://clades.nextstrain.org/) datasets can be used to identify high-frequency haplotypes that had not been defined as **derived haplotypes** by Nextstrain. 
 
