@@ -1,0 +1,16 @@
+name: library_design
+channels:
+  - bioconda
+  - r
+  - conda-forge
+  - schrodinger
+
+dependencies:
+  - python
+  - jupyterlab
+  - pip
+  - pandas
+  - pip:
+    - scipy
+    - numpy
+    - biopython
