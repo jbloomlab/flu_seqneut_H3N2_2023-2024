@@ -156,3 +156,7 @@ First, align the HA sequences of interest. We used MAFFT and placed these alignm
 The final output of this notebook are:
 * A directory of [ordersheets/](ordersheets/) containing tables including columns `name` and `sequence` required for ordering constructs from Twist
 * A table of library strains with columns `library_ID` (a short ID used in cloning), `plasmid` (the Bloom lab plasmid log name), `strain-name`, `epi` (a GISAID ID associated with each strain) and `expected_seq` (the HA construct sequences, minus the barcode)
+* The actual sequences in FASTA format:
+    * The trimmed HA1 sequences are placed in [.non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_HA1.fasta](.non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_HA1.fasta)
+    * The HA ectodomain sequences (with the H3 transmembrane domain removed) are placed in [.non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_HA_ectodomain.fasta](.non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_HA_ectodomain.fasta).
+    * The chimeric HA protein construct sequences with upstream signal peptide fixed to WSN sequence, downstream transmembrane domain fixed to H3 consensus, and downstream C-terminal tail fixed to WSN sequence are listed in [.non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_constructs.fasta](.non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_constructs.fasta)
