@@ -40,8 +40,8 @@ PooledSera,SCH_PennPostVax_pool,A/Oman/3011/2023,433.3,interpolated,49.58,3,midp
 PooledSera,SCH_PennPostVax_pool,A/Ontario/RV00796/2023,400.8,interpolated,6.799,3,midpoint
 PooledSera,SCH_PennPostVax_pool,A/Romania/543634/2022,521.1,interpolated,43.17,3,midpoint
 PooledSera,SCH_PennPostVax_pool,A/SENDAI/45/2023,381.2,interpolated,36,3,midpoint
-PooledSera,SCH_PennPostVax_pool,A/SOUTH_AFRICA/R07876/202023,445.7,interpolated,32.31,3,midpoint
-PooledSera,SCH_PennPostVax_pool,A/Saint-Petersburg/RII-MH144113/2023,379.6,interpolated,9.782,3,midpoint
+PooledSera,SCH_PennPostVax_pool,A/SOUTH_AFRICA/R07876/2023,445.7,interpolated,32.31,3,midpoint
+PooledSera,SCH_PennPostVax_pool,A/Saint-Petersburg/RII-MH144112/2023,379.6,interpolated,9.782,3,midpoint
 PooledSera,SCH_PennPostVax_pool,A/Samut_Songkhram/THIS061/2023,466.6,interpolated,31.41,3,midpoint
 PooledSera,SCH_PennPostVax_pool,A/Saskatchewan/SKFLU317847/2023,343.8,interpolated,2.993,3,midpoint
 PooledSera,SCH_PennPostVax_pool,A/Schleswig-Holstein/4/2023,489.7,interpolated,35.01,3,midpoint
@@ -51,8 +51,8 @@ PooledSera,SCH_PennPostVax_pool,A/Solwezi/13-NIC-001/2023,396.1,interpolated,27.
 PooledSera,SCH_PennPostVax_pool,A/SouthAfrica/PET28931/2023,474.4,interpolated,16.53,3,midpoint
 PooledSera,SCH_PennPostVax_pool,A/SouthSudan/631/2023,415.5,interpolated,9.194,3,midpoint
 PooledSera,SCH_PennPostVax_pool,A/SouthSudan/642/2023,332.3,interpolated,40.98,3,midpoint
+PooledSera,SCH_PennPostVax_pool,A/South_Africa/K056863/2023,478.5,interpolated,24.4,3,midpoint
 PooledSera,SCH_PennPostVax_pool,A/South_Africa/K056872/2023,442.1,interpolated,37.7,3,midpoint
-PooledSera,SCH_PennPostVax_pool,A/South_Africa/KO56863/2023,478.5,interpolated,24.4,3,midpoint
 PooledSera,SCH_PennPostVax_pool,A/South_Africa/R05384/2023,368.4,interpolated,19.89,3,midpoint
 PooledSera,SCH_PennPostVax_pool,A/South_Africa/R05510/2023,704.9,interpolated,10.67,3,midpoint
 PooledSera,SCH_PennPostVax_pool,A/South_Africa/R06240/2023,492.7,interpolated,20.08,3,midpoint

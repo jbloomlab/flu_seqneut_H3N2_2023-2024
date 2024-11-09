@@ -1,6 +1,6 @@
 group,serum,virus,replicate,titer,titer_bound,titer_as,nt50,midpoint,top,bottom,slope
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Sydney/710/2023,plate29-CTTGTAAAACTATGAT,64.56,interpolated,midpoint,65.5,64.56,0.9859,0,1.979
-PennVaccineCohort,PENN23_y1993_s020_d0,A/Sydney/710/2023,plate29-GCCGTAGCGAAATCTT,42.82,interpolated,midpoint,44.89,42.82,0.8717,0,6.265
+PennVaccineCohort,PENN23_y1993_s020_d0,A/Sydney/710/2023,plate29-GCCGTAGCGAAATCTT,42.82,interpolated,midpoint,44.89,42.82,0.8717,0,6.266
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Sydney/710/2023,plate29-TGATCCGCAAGCTTAG,64.98,interpolated,midpoint,64.98,64.98,1,0,1.219
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Solwezi/13-NIC-001/2023,plate29-CCACGTTCATTAGATG,40.79,interpolated,midpoint,41.76,40.79,0.955,0,4.021
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Solwezi/13-NIC-001/2023,plate29-AAACTTCGTGGTATAC,78.06,interpolated,midpoint,80.03,78.06,0.9571,0,3.599
@@ -14,9 +14,9 @@ PennVaccineCohort,PENN23_y1993_s020_d0,A/Krabi/THIS050/2023,plate29-TTAGCTACTAAC
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Samut_Songkhram/THIS061/2023,plate29-GAGATAGCCCAGAGGT,135.7,interpolated,midpoint,143.7,135.7,0.9673,0,1.173
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Samut_Songkhram/THIS061/2023,plate29-AAGTTGTACTTAAGGC,118.1,interpolated,midpoint,123.9,118.1,0.9593,0,1.756
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Samut_Songkhram/THIS061/2023,plate29-CCTATTATAGCTAACA,104.5,interpolated,midpoint,120.4,104.5,0.8945,0,1.677
-PennVaccineCohort,PENN23_y1993_s020_d0,A/Saint-Petersburg/RII-MH144113/2023,plate29-ATAAAGAATCCCTTGA,87.14,interpolated,midpoint,111.4,87.14,0.8765,0,1.154
-PennVaccineCohort,PENN23_y1993_s020_d0,A/Saint-Petersburg/RII-MH144113/2023,plate29-GCTTTTGAGAACCATT,104.6,interpolated,midpoint,110.1,104.6,0.9451,0,2.295
-PennVaccineCohort,PENN23_y1993_s020_d0,A/Saint-Petersburg/RII-MH144113/2023,plate29-CCGGTTTTCGGGACCT,139.1,interpolated,midpoint,151.7,139.1,0.9624,0,0.8999
+PennVaccineCohort,PENN23_y1993_s020_d0,A/Saint-Petersburg/RII-MH144112/2023,plate29-ATAAAGAATCCCTTGA,87.14,interpolated,midpoint,111.4,87.14,0.8765,0,1.154
+PennVaccineCohort,PENN23_y1993_s020_d0,A/Saint-Petersburg/RII-MH144112/2023,plate29-GCTTTTGAGAACCATT,104.6,interpolated,midpoint,110.1,104.6,0.9451,0,2.295
+PennVaccineCohort,PENN23_y1993_s020_d0,A/Saint-Petersburg/RII-MH144112/2023,plate29-CCGGTTTTCGGGACCT,139.1,interpolated,midpoint,151.7,139.1,0.9624,0,0.8999
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Netherlands/01760/2023,plate29-AACAAGGCCAACATTT,61.49,interpolated,midpoint,67.7,61.49,0.9421,0,1.279
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Netherlands/01760/2023,plate29-CTGTGAAAAAAAATAC,77.28,interpolated,midpoint,79.8,77.28,0.9473,0,3.477
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Netherlands/01760/2023,plate29-AATCCGATAAGAGCTA,103.7,interpolated,midpoint,107.4,103.7,0.9819,0,1.061
@@ -77,9 +77,9 @@ PennVaccineCohort,PENN23_y1993_s020_d0,A/Brisbane/429/2023,plate29-CTCCAATAGGAGA
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Ontario/RV00796/2023,plate29-TACCATTTTGGTCCGC,87.52,interpolated,midpoint,96.23,87.52,0.9171,0,1.91
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Ontario/RV00796/2023,plate29-TCCAAACAGCGTTAAA,140.1,interpolated,midpoint,150,140.1,0.9586,0,1.255
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Ontario/RV00796/2023,plate29-TGGCTAGCGCACACCA,73.82,interpolated,midpoint,83.2,73.82,0.9381,0,1.106
-PennVaccineCohort,PENN23_y1993_s020_d0,A/SOUTH_AFRICA/R07876/202023,plate29-TGATTCGTCAATTCAT,122.9,interpolated,midpoint,128.9,122.9,0.9641,0,1.583
-PennVaccineCohort,PENN23_y1993_s020_d0,A/SOUTH_AFRICA/R07876/202023,plate29-AGACTGTACGCGACAG,92.27,interpolated,midpoint,97.8,92.27,0.9113,0,3.355
-PennVaccineCohort,PENN23_y1993_s020_d0,A/SOUTH_AFRICA/R07876/202023,plate29-CTACTAGAGCAGCGAG,132.9,interpolated,midpoint,144.3,132.9,0.9494,0,1.299
+PennVaccineCohort,PENN23_y1993_s020_d0,A/SOUTH_AFRICA/R07876/2023,plate29-TGATTCGTCAATTCAT,122.9,interpolated,midpoint,128.9,122.9,0.9641,0,1.583
+PennVaccineCohort,PENN23_y1993_s020_d0,A/SOUTH_AFRICA/R07876/2023,plate29-AGACTGTACGCGACAG,92.27,interpolated,midpoint,97.8,92.27,0.9113,0,3.355
+PennVaccineCohort,PENN23_y1993_s020_d0,A/SOUTH_AFRICA/R07876/2023,plate29-CTACTAGAGCAGCGAG,132.9,interpolated,midpoint,144.3,132.9,0.9494,0,1.299
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Massachusetts/18/2022,plate29-CATTTCTGATGAATTG,161,interpolated,midpoint,174.2,161,0.9574,0,1.13
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Massachusetts/18/2022,plate29-CGATCTTTACGAAAAA,119.4,interpolated,midpoint,162.3,119.4,0.8169,0,1.488
 PennVaccineCohort,PENN23_y1993_s020_d0,A/Massachusetts/18/2022,plate29-TCCACACCCCTAGCTA,124.4,interpolated,midpoint,170.7,124.4,0.8145,0,1.464
@@ -130,9 +130,9 @@ PennVaccineCohort,PENN23_y1993_s020_d0,A/Bhutan/0845/2023,plate29-AACAATTAATTTTT
 PennVaccineCohort,PENN23_y1993_s020_d0,A/South_Dakota/22/2023,plate29-TCAACCCTTCGATGTA,104.6,interpolated,midpoint,105.6,104.6,0.9841,0,3.401
 PennVaccineCohort,PENN23_y1993_s020_d0,A/South_Dakota/22/2023,plate29-AGGGACTTTATTGTCC,85.64,interpolated,midpoint,87.01,85.64,0.9565,0,5.754
 PennVaccineCohort,PENN23_y1993_s020_d0,A/South_Dakota/22/2023,plate29-GAAGTAACAAACTATG,125,interpolated,midpoint,134.1,125,0.9229,0,2.374
-PennVaccineCohort,PENN23_y1993_s020_d0,A/South_Africa/KO56863/2023,plate29-CCGCTATCATTAACCC,91.83,interpolated,midpoint,104.4,91.83,0.9051,0,1.642
-PennVaccineCohort,PENN23_y1993_s020_d0,A/South_Africa/KO56863/2023,plate29-GAGCCCGAATAGCAAG,177.4,interpolated,midpoint,182.7,177.4,0.9808,0,1.339
-PennVaccineCohort,PENN23_y1993_s020_d0,A/South_Africa/KO56863/2023,plate29-ATCGTCCCGGACATTT,113.4,interpolated,midpoint,129,113.4,0.8752,0,2.231
+PennVaccineCohort,PENN23_y1993_s020_d0,A/South_Africa/K056863/2023,plate29-CCGCTATCATTAACCC,91.83,interpolated,midpoint,104.4,91.83,0.9051,0,1.642
+PennVaccineCohort,PENN23_y1993_s020_d0,A/South_Africa/K056863/2023,plate29-GAGCCCGAATAGCAAG,177.4,interpolated,midpoint,182.7,177.4,0.9808,0,1.339
+PennVaccineCohort,PENN23_y1993_s020_d0,A/South_Africa/K056863/2023,plate29-ATCGTCCCGGACATTT,113.4,interpolated,midpoint,129,113.4,0.8752,0,2.231
 PennVaccineCohort,PENN23_y1993_s020_d0,A/TECPAN/017FLU/2023,plate29-TACTGAGACACTTAAA,165.1,interpolated,midpoint,167.5,165.1,0.987,0,1.816
 PennVaccineCohort,PENN23_y1993_s020_d0,A/TECPAN/017FLU/2023,plate29-CACCTTCATCCTAAAG,171.6,interpolated,midpoint,184.6,171.6,0.9341,0,1.94
 PennVaccineCohort,PENN23_y1993_s020_d0,A/TECPAN/017FLU/2023,plate29-ATAATAATCATCAAGA,146.5,interpolated,midpoint,148.5,146.5,0.986,0,2.07

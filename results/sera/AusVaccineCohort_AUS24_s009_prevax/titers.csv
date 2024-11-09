@@ -40,8 +40,8 @@ AusVaccineCohort,AUS24_s009_prevax,A/Oman/3011/2023,573.8,interpolated,36.13,3,m
 AusVaccineCohort,AUS24_s009_prevax,A/Ontario/RV00796/2023,718.4,interpolated,221.4,3,midpoint
 AusVaccineCohort,AUS24_s009_prevax,A/Romania/543634/2022,506.6,interpolated,67.03,3,midpoint
 AusVaccineCohort,AUS24_s009_prevax,A/SENDAI/45/2023,422,interpolated,52.85,3,midpoint
-AusVaccineCohort,AUS24_s009_prevax,A/SOUTH_AFRICA/R07876/202023,638.1,interpolated,72.57,3,midpoint
-AusVaccineCohort,AUS24_s009_prevax,A/Saint-Petersburg/RII-MH144113/2023,421.6,interpolated,80.97,3,midpoint
+AusVaccineCohort,AUS24_s009_prevax,A/SOUTH_AFRICA/R07876/2023,638.1,interpolated,72.57,3,midpoint
+AusVaccineCohort,AUS24_s009_prevax,A/Saint-Petersburg/RII-MH144112/2023,421.6,interpolated,80.97,3,midpoint
 AusVaccineCohort,AUS24_s009_prevax,A/Samut_Songkhram/THIS061/2023,408,interpolated,42.79,3,midpoint
 AusVaccineCohort,AUS24_s009_prevax,A/Saskatchewan/SKFLU317847/2023,147.5,interpolated,14.37,3,midpoint
 AusVaccineCohort,AUS24_s009_prevax,A/Schleswig-Holstein/4/2023,424.5,interpolated,32.13,3,midpoint
@@ -51,8 +51,8 @@ AusVaccineCohort,AUS24_s009_prevax,A/Solwezi/13-NIC-001/2023,480.2,interpolated,
 AusVaccineCohort,AUS24_s009_prevax,A/SouthAfrica/PET28931/2023,664.7,interpolated,37.05,3,midpoint
 AusVaccineCohort,AUS24_s009_prevax,A/SouthSudan/631/2023,1511,interpolated,61.67,3,midpoint
 AusVaccineCohort,AUS24_s009_prevax,A/SouthSudan/642/2023,1192,interpolated,168,3,midpoint
-AusVaccineCohort,AUS24_s009_prevax,A/South_Africa/K056872/2023,399.2,interpolated,98.54,3,midpoint
-AusVaccineCohort,AUS24_s009_prevax,A/South_Africa/KO56863/2023,482.7,interpolated,241.7,3,midpoint
+AusVaccineCohort,AUS24_s009_prevax,A/South_Africa/K056863/2023,482.7,interpolated,241.7,3,midpoint
+AusVaccineCohort,AUS24_s009_prevax,A/South_Africa/K056872/2023,399.1,interpolated,98.54,3,midpoint
 AusVaccineCohort,AUS24_s009_prevax,A/South_Africa/R05384/2023,349.8,interpolated,11.97,3,midpoint
 AusVaccineCohort,AUS24_s009_prevax,A/South_Africa/R05510/2023,1065,interpolated,240.4,3,midpoint
 AusVaccineCohort,AUS24_s009_prevax,A/South_Africa/R06240/2023,556,interpolated,109.4,3,midpoint

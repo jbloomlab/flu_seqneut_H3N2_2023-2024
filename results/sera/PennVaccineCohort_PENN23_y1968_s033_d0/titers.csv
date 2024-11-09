@@ -38,8 +38,8 @@ PennVaccineCohort,PENN23_y1968_s033_d0,A/Oman/3011/2023,40,upper,0,3,midpoint
 PennVaccineCohort,PENN23_y1968_s033_d0,A/Ontario/RV00796/2023,40,upper,0,3,midpoint
 PennVaccineCohort,PENN23_y1968_s033_d0,A/Romania/543634/2022,77.06,interpolated,19.52,3,midpoint
 PennVaccineCohort,PENN23_y1968_s033_d0,A/SENDAI/45/2023,50.89,interpolated,4.642,3,midpoint
-PennVaccineCohort,PENN23_y1968_s033_d0,A/SOUTH_AFRICA/R07876/202023,40,upper,0,3,midpoint
-PennVaccineCohort,PENN23_y1968_s033_d0,A/Saint-Petersburg/RII-MH144113/2023,40,upper,0,3,midpoint
+PennVaccineCohort,PENN23_y1968_s033_d0,A/SOUTH_AFRICA/R07876/2023,40,upper,0,3,midpoint
+PennVaccineCohort,PENN23_y1968_s033_d0,A/Saint-Petersburg/RII-MH144112/2023,40,upper,0,3,midpoint
 PennVaccineCohort,PENN23_y1968_s033_d0,A/Samut_Songkhram/THIS061/2023,57.09,interpolated,6.686,3,midpoint
 PennVaccineCohort,PENN23_y1968_s033_d0,A/Saskatchewan/SKFLU317847/2023,40,upper,0,3,midpoint
 PennVaccineCohort,PENN23_y1968_s033_d0,A/Schleswig-Holstein/4/2023,52.94,interpolated,11.6,3,midpoint
@@ -48,8 +48,8 @@ PennVaccineCohort,PENN23_y1968_s033_d0,A/Solwezi/13-NIC-001/2023,40,upper,0,2,mi
 PennVaccineCohort,PENN23_y1968_s033_d0,A/SouthAfrica/PET28931/2023,40,upper,0,3,midpoint
 PennVaccineCohort,PENN23_y1968_s033_d0,A/SouthSudan/631/2023,40,upper,0,3,midpoint
 PennVaccineCohort,PENN23_y1968_s033_d0,A/SouthSudan/642/2023,40,upper,0,2,midpoint
+PennVaccineCohort,PENN23_y1968_s033_d0,A/South_Africa/K056863/2023,47.24,upper,7.245,2,midpoint
 PennVaccineCohort,PENN23_y1968_s033_d0,A/South_Africa/K056872/2023,40,upper,5.61,3,midpoint
-PennVaccineCohort,PENN23_y1968_s033_d0,A/South_Africa/KO56863/2023,47.24,upper,7.245,2,midpoint
 PennVaccineCohort,PENN23_y1968_s033_d0,A/South_Africa/R05384/2023,40,upper,0,3,midpoint
 PennVaccineCohort,PENN23_y1968_s033_d0,A/South_Africa/R05510/2023,296.1,interpolated,32.78,3,midpoint
 PennVaccineCohort,PENN23_y1968_s033_d0,A/South_Africa/R06240/2023,62.9,interpolated,11.61,3,midpoint

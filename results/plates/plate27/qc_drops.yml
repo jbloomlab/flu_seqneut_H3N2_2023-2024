@@ -1,8 +1,5 @@
 wells: {}
-barcodes:
-  CGTCCCTGGCGTGTCG: min_neut_standard_frac_per_well
-  TATATGGAATACTAAA: min_neut_standard_frac_per_well
-  TCTCCGATAGCCCTAC: min_neut_standard_frac_per_well
+barcodes: {}
 barcode_wells: {}
 barcode_serum_replicates:
   AATGACAGCTGTCTAG PENN23_y1985_s015_d0: goodness_of_fit
