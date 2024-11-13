@@ -1,0 +1,26 @@
+name: titer_plotting
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - altair=5.2
+  - black-jupyter
+  - jupyterlab
+  - mamba
+  - markdown=3.6
+  - pandas=2.2
+  - papermill=2.5
+  - pip
+  - pyarrow
+  - python=3.12
+  - ruamel.yaml=0.18.6
+  - snakefmt
+  - snakemake=8.10
+  - ruff
+  - scikit-learn
+  - seaborn
+  - pip:
+    - dms_variants==1.6.0
+    - neutcurve==2.1.0
