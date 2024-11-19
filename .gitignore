@@ -33,3 +33,7 @@ results/aggregated_titers/*
 results/qc_drops/*
 !results/qc_drops/plate_qc_drops.yml
 !results/qc_drops/sera_qc_drops.yml
+
+
+non-pipeline_analyses/nextstrain_tree_build/data/download/*
+non-pipeline_analyses/nextstrain_tree_build/data/concatenated_files/*

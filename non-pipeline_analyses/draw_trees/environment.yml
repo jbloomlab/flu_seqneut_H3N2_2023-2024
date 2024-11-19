@@ -1,0 +1,27 @@
+name: library_fasta_to_phylogeny
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - altair=5.2
+  - black-jupyter
+  - jupyterlab
+  - mamba
+  - markdown=3.5
+  - pandas
+  - pip
+  - python=3.11
+  - ruamel.yaml=0.18.5
+  - ruff
+  - xlwt
+  - xlrd
+  
+  - pip:
+    - baltic==0.2.2
+    - ete3
+    - matplotlib
+    - requests
+    - numpy
+    - Python-IO

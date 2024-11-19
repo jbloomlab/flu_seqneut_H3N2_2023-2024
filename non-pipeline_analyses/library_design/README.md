@@ -2,7 +2,6 @@
 This subdirectory describes the creation of the 2023-2024 H3N2 library, including details on the barcoded HA expression plasmid and the rationale for the strains chosen for the library. 
 Author: Caroline Kikawa
 
-
 ## Quick summary
 This directory contains the analysis performed to select strains and the design of the barcoded HA constructs for the 2023-2024 H3N2 library. The most relevant steps are documented in interactive Jupyter Notebooks placed in [notebooks/](notebooks/):
 * Picking strains using the Nextstrain trees and Nextclade datasets available in November 2023 [notebooks/compare_trees_design_library.ipynb](notebooks/compare_trees_design_library.ipynb)
@@ -13,7 +12,7 @@ The most relevant results (HA sequences, sequence IDs) are placed in [results/](
 * The HA ectodomain sequences (with the H3 transmembrane domain removed) are placed in [results/2023-2024_H3_library_protein_HA_ectodomain.fasta](results/2023-2024_H3_library_protein_HA_ectodomain.fasta).
 * The chimeric HA protein construct sequences with upstream signal peptide fixed to WSN sequence, downstream transmembrane domain fixed to H3 consensus, and downstream C-terminal tail fixed to WSN sequence are listed in [results/2023-2024_H3_library_protein_constructs.fasta](results/2023-2024_H3_library_protein_constructs.fasta)
 
-The rest of this README contains the **overview (*section 1*)** and the details of **strain choice (*section 2*)** and **barcode design (*section 3*)** involved in designing a library for `seqneut` assays.
+The rest of this README contains the **overview (*section 1*)** and the details of **strain choice (*section 2*)** and **barcode design (*section 3*)** involved in designing a library for `seqneut` assays, as well as an **analysis of library diversity using Hamming Distances (*section 4*)**.
 
 
 ## 1. Library design overview
@@ -171,3 +170,10 @@ The final output of the above notebook are:
     * The trimmed HA1 sequences are placed in [results/2023-2024_H3_library_protein_HA1.fasta](results/2023-2024_H3_library_protein_HA1.fasta)
     * The HA ectodomain sequences (with the H3 transmembrane domain removed) are placed in [results/2023-2024_H3_library_protein_HA_ectodomain.fasta](results/2023-2024_H3_library_protein_HA_ectodomain.fasta).
     * The chimeric HA protein construct sequences with upstream signal peptide fixed to WSN sequence, downstream transmembrane domain fixed to H3 consensus, and downstream C-terminal tail fixed to WSN sequence are listed in [results/2023-2024_H3_library_protein_constructs.fasta](results/2023-2024_H3_library_protein_constructs.fasta)
+
+## 4. Analysis of library diversity using Hamming distances
+Using the output HA1 and HA ectodomain sequences from **section 3**, run an interactive Jupyter Notebook that calculates pair-wise Hamming distances between all library strains. First activate the conda environment with:
+
+    conda activate library_design
+
+Then run the interactive Jupyter notebook placed in [notebooks/flu_H3_2023-2024_sequence_analysis.ipynb](notebooks/flu_H3_2023-2024_sequence_analysis.ipynb). 
