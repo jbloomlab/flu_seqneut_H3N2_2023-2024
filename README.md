@@ -9,9 +9,9 @@ These experiments were performed by Caroline Kikawa, using method and analysis d
     * The chimeric HA protein construct sequences with upstream signal peptide fixed to WSN sequence, downstream transmembrane domain fixed to H3 consensus, and downstream C-terminal tail fixed to WSN sequence are listed in [non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_constructs.fasta](non-pipeline_analyses/library_design/results/2023-2024_H3_library_protein_constructs.fasta)
 
 * This library was then assayed against sera from different human cohorts, specifically:
-    * 78 unique human serum samples from the University of Pennsylvania, taken at 0 and 28 days post vaccination (from 39 matched individuals) with the egg-based 2022-2023 seasonal influenza virus vaccine. The H3N2 vaccine component that season was A/Darwin/9/2021.
-    * 56 pediatric human serum samples from Seattle Children's Hospital obtained from routine blood draws.
-    * 20 sera samples from a cohort from Australia taken pre- and post-vaccination from 10 individuals vaccinated with the cell-based 2024 Southern Hemisphere vaccine
+    * 78 unique human serum samples from the University of Pennsylvania, taken at 0 and 28 days post vaccination (from 39 matched individuals) with the egg-based 2022-2023 seasonal influenza virus vaccine. The H3N2 vaccine component that season was A/Darwin/9/2021. Metadata for these sera are placed in [data/sera_metadata/metadata_PennVaccineCohort.csv](data/sera_metadata/metadata_PennVaccineCohort.csv)
+    * 56 pediatric human serum samples from Seattle Children's Hospital obtained from routine blood draws. Metadata for these sera are placed in[data/sera_metadata/metadata_SCH.csv](data/sera_metadata/metadata_SCH.csv)
+    * 20 sera samples from a cohort from Australia taken pre- and post-vaccination from 10 individuals vaccinated with the cell-based 2024 Southern Hemisphere vaccine. Metadata for these sera are placed in [data/sera_metadata/metadata_AusVaccineCohort.csv](data/sera_metadata/metadata_AusVaccineCohort.csv)
     * Some pools of the sera from the different cohorts.
 
 * The aggregated titers for each cohort are in in [results/aggregated_titers](results/aggregated_titers). Specifically:
