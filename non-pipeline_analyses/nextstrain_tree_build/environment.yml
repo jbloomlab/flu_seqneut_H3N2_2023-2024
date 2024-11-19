@@ -1,0 +1,16 @@
+name: nextstrain
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - augur>=25.0.0
+  - auspice>=2.55.0
+  - emboss
+  - jupyterlab
+  - nextstrain-cli
+  - pandas
+  - seaborn
+  - snakemake
+  - xlrd
+  - xlwt
