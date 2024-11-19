@@ -19,7 +19,7 @@ viral_libraries:
   H3N2_library: data/viral_libraries/2023_H3N2_Kikawa.csv
   H1N1_library: data/viral_libraries/pdmH1N1_lib2023_loes.csv
 
-viral_strain_plot_order: data/H3N2library_2023-2024_allStrains.csv
+viral_strain_plot_order: data/H3N2library_2023-2024_strain_order.csv
 
 neut_standard_sets:
   loes2023: data/neut_standard_sets/loes2023_neut_standards.csv
