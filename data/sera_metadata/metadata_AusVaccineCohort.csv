@@ -1,0 +1,17 @@
+Bloom_lab_serum_ID,participant_ID,age,vaccine,previous_vaccine,previous_vaccine_years,year_collected
+AUS24_s001_prevax,AUS24_s001,26,Flucelvax,No,,2024
+AUS24_s001_postvax,AUS24_s001,26,Flucelvax,No,,2024
+AUS24_s002_prevax,AUS24_s002,49,Flucelvax,Yes,"2023, 2022",2024
+AUS24_s002_postvax,AUS24_s002,49,Flucelvax,Yes,"2023, 2022",2024
+AUS24_s004_prevax,AUS24_s004,51,Flucelvax,Yes,"2023, 2022",2024
+AUS24_s004_postvax,AUS24_s004,51,Flucelvax,Yes,"2023, 2022",2024
+AUS24_s006_prevax,AUS24_s006,54,Flucelvax,Yes,2022,2024
+AUS24_s006_postvax,AUS24_s006,54,Flucelvax,Yes,2022,2024
+AUS24_s007_prevax,AUS24_s007,51,Flucelvax,Yes,2022,2024
+AUS24_s007_postvax,AUS24_s007,51,Flucelvax,Yes,2022,2024
+AUS24_s008_prevax,AUS24_s008,27,Flucelvax,No,,2024
+AUS24_s008_postvax,AUS24_s008,27,Flucelvax,No,,2024
+AUS24_s009_prevax,AUS24_s009,34,Flucelvax,Yes,"2023, 2022",2024
+AUS24_s009_postvax,AUS24_s009,34,Flucelvax,Yes,"2023, 2022",2024
+AUS24_s010_prevax,AUS24_s010,38,Flucelvax,No,,2024
+AUS24_s010_postvax,AUS24_s010,38,Flucelvax,No,,2024
