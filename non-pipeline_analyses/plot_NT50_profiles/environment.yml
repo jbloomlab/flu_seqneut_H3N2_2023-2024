@@ -1,0 +1,23 @@
+name: plot_NT50_profiles
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - altair=5.2
+  - black-jupyter
+  - jupyterlab
+  - mamba
+  - markdown=3.6
+  - matplotlib
+  - pandas=2.2
+  - papermill=2.5
+  - pip
+  - pyarrow
+  - python=3.12
+  - ruamel.yaml=0.18.6
+  - ruff
+  - scikit-learn
+  - vl-convert-python
+
