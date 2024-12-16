@@ -1,7 +1,6 @@
 name: library_design
 channels:
   - bioconda
-  - r
   - conda-forge
   - schrodinger
 
