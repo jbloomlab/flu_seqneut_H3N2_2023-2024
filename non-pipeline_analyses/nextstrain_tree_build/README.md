@@ -22,3 +22,12 @@ If running on the Hutch cluster, first grab 8 cores. Then, I ran the build (coer
     nextstrain build . --configfile profiles/gisaid/builds.yaml --forceall
 
 I copied the output tree locally to [results/h3h2_ha.json](results/h3h2_ha.json). 
+
+## Upload the tree build to the `jbloomlab` Nextstrain Groups page
+I followed the instructions for logging in with the Nextstrain CLI outlined [here](https://docs.nextstrain.org/en/latest/guides/share/groups/index.html). Then, in the  top-level directory of the `seasonal-flu` build, I uploaded my tree using:
+
+    nextstrain remote upload \
+      nextstrain.org/groups/jbloomlab/seqneut/h3n2-ha-2023-2024 \
+        auspice/h3n2_ha.json \
+        auspice/h3n2_ha_tip-frequencies.json 
+

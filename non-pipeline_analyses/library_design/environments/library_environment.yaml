@@ -9,6 +9,8 @@ dependencies:
   - jupyterlab
   - pip
   - pandas
+  - vl-convert-python
+  - altair=5.2
   - pip:
     - scipy
     - numpy
