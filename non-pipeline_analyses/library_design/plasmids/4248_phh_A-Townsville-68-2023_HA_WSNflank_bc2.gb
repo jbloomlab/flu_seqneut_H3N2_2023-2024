@@ -14,33 +14,33 @@ SOURCE      synthetic DNA construct
   ORGANISM  synthetic DNA construct
             .
 FEATURES             Location/Qualifiers
-     terminator      complement(545..710)
+     terminator      complement(544..709)
                      /label="mouse PolI terminator"
-     misc_feature    complement(711..722)
+     misc_feature    complement(710..721)
                      /label="U12"
-     misc_feature    complement(711..742)
+     misc_feature    complement(710..741)
                      /label="3' NCR"
-     misc_feature    743..799
+     misc_feature    742..798
                      /label="WSN first 19 aa"
-     misc_feature    800..2310
+     misc_feature    799..2310
                      /label="HA gene from A/Townsville/68/2023"
-     misc_feature    2312..2455
+     misc_feature    2311..2454
                      /label="constant H3 endodomain"
-     misc_feature    2324..2421
+     misc_feature    2323..2420
                      /label="HK19 coded packaging signal with I193M"
-     misc_feature    2423..2455
+     misc_feature    2422..2454
                      /label="WSN mutated packaging signal"
-     misc_feature    2456..2471
+     misc_feature    2455..2470
                      /label="barcode"
-     misc_feature    2472..2504
+     misc_feature    2471..2503
                      /label="IlluminaBarcodeRegion"
-     misc_feature    2514..2618
+     misc_feature    2513..2617
                      /label="packaging signal"
-     misc_feature    complement(2619..2663)
+     misc_feature    complement(2618..2662)
                      /label="5' NCR"
-     misc_feature    complement(2652..2663)
+     misc_feature    complement(2651..2662)
                      /label="U13"
-     CDS             complement(3934..4791)
+     CDS             complement(3933..4790)
                      /label="AmpR"
 ORIGIN
         1 actcttcctt tttcaatatt attgaagcat ttatcagggt tattgtctca tgagcggata
