@@ -1,6 +1,11 @@
 # Sequencing-based neutralization assays to estimate serum neutralizing titers in adult and pediatric cohorts using a library of 61 seasonal H3N2 influenza viruses circulating in late 2023 and 17 recent and historical vaccine strains 
+This repository contains the data for the study ["High-throughput neutralization measurements correlate strongly with evolutionary success of human influenza strains" by Kikawa et al (2025)](https://www.biorxiv.org/content/10.1101/2025.03.04.641544v1).
+
 This repository contains data and analysis of sequencing-based neutralization assays using a library of 78 seasonal H3N2 influenza viruses, including 17 recent and historical vaccine strains (with both egg- and cell-passaging histories) and 61 strains representing circulating H3N2 diversity in November 2023. 
-These experiments were performed by Caroline Kikawa, using method and analysis developed by the [Bloom lab](https://jbloomlab.github.io/) and described in [Loes et al (2024)](https://journals.asm.org/doi/10.1128/jvi.00689-24).
+
+These experiments were performed by Caroline Kikawa, using method and analysis developed by the [Bloom lab](https://jbloomlab.github.io/) and originally described in [Loes et al (2024)](https://journals.asm.org/doi/10.1128/jvi.00689-24).
+
+See [Kikawa et al (2025)](https://www.biorxiv.org/content/10.1101/2025.03.04.641544v1) for full details.
 
 ## Quick summary
 * The actual strains in the library are listed in CSV format in [data/H3N2library_2023-2024_allStrains.csv](data/H3N2library_2023-2024_allStrains.csv), and the process of library design is described in [non-pipeline_analyses/library_design/README.md](non-pipeline_analyses/library_design/README.md).
