@@ -10,6 +10,8 @@ docs: docs
 description: |
   # Sequencing-based neutralization assays of 2023-2024 human serum samples versus H3N2 influenza libraries
 
+  See [Kikawa et al (2025)](https://www.biorxiv.org/content/10.1101/2025.03.04.641544v1) for study details.
+
   The numerical data and computer code are at [https://github.com/jbloomlab/flu_seqneut_H3N2_2023-2024](https://github.com/jbloomlab/flu_seqneut_H3N2_2023-2024)
 
 
